@@ -1,4 +1,5 @@
 <script lang="ts">
+import { onMount, tick } from "svelte";
 import { Rotation, TileModel } from "../models/tile_model";
 
 export let tile_model: TileModel
@@ -38,8 +39,6 @@ function render_tile(tile: TileModel) {
 			line_mapping[key].visibility = "visible"
 		}
 
-		// Check if a dot should be rendered
-		// Line should end with [a, b, c, d]
 		if (isNaN(parseInt(line[line.length - 1]))) {
 			dot_mapping[line[line.length - 1]].visibility = "visible"
 		}
@@ -51,9 +50,22 @@ function format_key(symbol1: string, symbol2: string): string {
 	return symbols.sort().join('')
 }
 
-function click_handler() {
+let prev_rotation = 0
+let curr_rotation = 0
+
+function click_handler(event) {
+	curr_rotation = curr_rotation + 1
+	document.documentElement.style.setProperty("--prev-rotation", `${prev_rotation * 90}deg`)
+	document.documentElement.style.setProperty("--curr-rotation", `${curr_rotation * 90}deg`)
+	prev_rotation = curr_rotation
+
+
+	let node = document.getElementById("tile")
+	node.classList.remove("rotate_animation")
+	void node.offsetWidth
+	node.classList.add("rotate_animation")
+
 	tile_model.rotate(Rotation.QUARTER)
-	render_tile(tile_model)
 }
 
 render_tile(tile_model)
@@ -61,7 +73,9 @@ render_tile(tile_model)
 
 <!-- HTML -->
 
-<div class="tile"
+<div
+id="tile"
+class="tile"
 style:--size="{tile_size}px"
 on:click={click_handler}
 >
@@ -84,7 +98,7 @@ on:click={click_handler}
 	<div class="dot c" style:visibility={dot_mapping["c"].visibility}></div>
 	<div class="dot d" style:visibility={dot_mapping["d"].visibility}></div>
 </div>
-
+<div class="rotate_animation"></div>
 <!-- CSS -->
 
 <style>
@@ -107,6 +121,21 @@ on:click={click_handler}
 		height: var(--size);
 		background-color: var(--tile-color);
 		border-radius: 15%;
+	}
+
+	.rotate_animation {
+		animation-name: rotation;
+		animation-duration: 250ms;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes rotation {
+		from {
+			transform: rotate(var(--prev-rotation));
+		}
+		to {
+			transform: rotate(var(--curr-rotation));
+		}
 	}
 
 	.line {
@@ -134,54 +163,54 @@ on:click={click_handler}
 	}
 
 	.q1_north {
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
+		/* border-top-left-radius: 0px;
+		border-top-right-radius: 0px; */
 		left: calc(30% - (var(--vertical-line-width) / 2));
 	}
 
 	.q2_north {
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
+		/* border-top-left-radius: 0px;
+		border-top-right-radius: 0px; */
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.q3_south {
-		border-bottom-left-radius: 0px;
-		border-bottom-right-radius: 0px;
+		/* border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px; */
 		top: calc(100% - var(--vertical-line-height));
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.q4_south {
-		border-bottom-left-radius: 0px;
-		border-bottom-right-radius: 0px;
+		/* border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px; */
 		top: calc(100% - var(--vertical-line-height));
 		left: calc(30% - (var(--vertical-line-width) / 2));
 	}
 
 	.q1_west {
-		border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px;
+		/* border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px; */
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 	}
 
 	.q2_east {
-		border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px;
+		/* border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px; */
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 		left: calc(100% - var(--horizontal-line-width));
 	}
 
 	.q3_east {
-		border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px;
+		/* border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px; */
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 		left: calc(100% - var(--horizontal-line-width));
 	}
 
 	.q4_west {
-		border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px;
+		/* border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px; */
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 	}
 
