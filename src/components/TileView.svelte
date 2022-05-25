@@ -1,9 +1,7 @@
 <script lang="ts">
-import { onMount, tick } from "svelte";
 import { Rotation, TileModel } from "../models/tile_model";
 
 export let tile_model: TileModel
-let tile_size = 300
 let line_mapping = {}
 let dot_mapping = {}
 let tile_id = `tile_${Math.random()}`
@@ -77,7 +75,6 @@ render_tile(tile_model)
 <div
 id={tile_id}
 class="tile"
-style:--size="{tile_size}px"
 on:click={click_handler}
 >
 	<div class="vertical line q1_north" style:visibility={line_mapping["1a"].visibility}></div>
@@ -99,7 +96,7 @@ on:click={click_handler}
 	<div class="dot c" style:visibility={dot_mapping["c"].visibility}></div>
 	<div class="dot d" style:visibility={dot_mapping["d"].visibility}></div>
 </div>
-<div class="rotate_animation"></div>
+
 <!-- CSS -->
 
 <style>
@@ -116,17 +113,23 @@ on:click={click_handler}
 		--tile-color: slategrey;
 	}
 
-	.tile {
-		position: relative;
-		width: var(--size);
-		height: var(--size);
-		background-color: var(--tile-color);
-		border-radius: 15%;
+	div {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-webkit-transform-style: preserve-3d;
+		-webkit-transform:translate3d(0,0,0);
 	}
 
-	.rotate_animation {
+	.tile {
+		position: relative;
+		background-color: var(--tile-color);
+		border-radius: 15%;
+		border-style: solid;
+		border-color: rgb(102, 123, 144);
+	}
+
+	:global(.rotate_animation) {
 		animation-name: rotation;
-		animation-duration: 250ms;
+		animation-duration: 200ms;
 		animation-fill-mode: forwards;
 	}
 
@@ -164,54 +167,38 @@ on:click={click_handler}
 	}
 
 	.q1_north {
-		/* border-top-left-radius: 0px;
-		border-top-right-radius: 0px; */
 		left: calc(30% - (var(--vertical-line-width) / 2));
 	}
 
 	.q2_north {
-		/* border-top-left-radius: 0px;
-		border-top-right-radius: 0px; */
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.q3_south {
-		/* border-bottom-left-radius: 0px;
-		border-bottom-right-radius: 0px; */
 		top: calc(100% - var(--vertical-line-height));
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.q4_south {
-		/* border-bottom-left-radius: 0px;
-		border-bottom-right-radius: 0px; */
 		top: calc(100% - var(--vertical-line-height));
 		left: calc(30% - (var(--vertical-line-width) / 2));
 	}
 
 	.q1_west {
-		/* border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px; */
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 	}
 
 	.q2_east {
-		/* border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px; */
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 		left: calc(100% - var(--horizontal-line-width));
 	}
 
 	.q3_east {
-		/* border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px; */
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 		left: calc(100% - var(--horizontal-line-width));
 	}
 
 	.q4_west {
-		/* border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px; */
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 	}
 
