@@ -61,10 +61,6 @@ render_tile(tile_model)
 
 <!-- HTML -->
 
-<div>{tile_model.internal_lines}</div>
-<div>{tile_model.lines}</div>
-<div>{tile_model.dots}</div>
-
 <div class="tile"
 style:--size="{tile_size}px"
 on:click={click_handler}
@@ -138,21 +134,18 @@ on:click={click_handler}
 	}
 
 	.q1_north {
-		/* background-color: lightgreen; */
 		border-top-left-radius: 0px;
 		border-top-right-radius: 0px;
 		left: calc(30% - (var(--vertical-line-width) / 2));
 	}
 
 	.q2_north {
-		/* background-color: lightgreen; */
 		border-top-left-radius: 0px;
 		border-top-right-radius: 0px;
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.q3_south {
-		/* background-color: lightgreen; */
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
 		top: calc(100% - var(--vertical-line-height));
@@ -160,7 +153,6 @@ on:click={click_handler}
 	}
 
 	.q4_south {
-		/* background-color: lightgreen; */
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
 		top: calc(100% - var(--vertical-line-height));
@@ -168,14 +160,12 @@ on:click={click_handler}
 	}
 
 	.q1_west {
-		/* background-color: lightblue; */
 		border-top-left-radius: 0px;
 		border-bottom-left-radius: 0px;
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 	}
 
 	.q2_east {
-		/* background-color: lightblue; */
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 		top: calc(30% - (var(--horizontal-line-height) / 2));
@@ -183,7 +173,6 @@ on:click={click_handler}
 	}
 
 	.q3_east {
-		/* background-color: lightblue; */
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 		top: calc(70% - (var(--horizontal-line-height) / 2));
@@ -191,35 +180,30 @@ on:click={click_handler}
 	}
 
 	.q4_west {
-		/* background-color: lightblue; */
 		border-top-left-radius: 0px;
 		border-bottom-left-radius: 0px;
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 	}
 
 	.center_north {
-		/* background-color: lightcoral; */
 		width: var(--center-line-length);
 		top: calc(30% - (var(--horizontal-line-height) / 2));
 		left: calc(50% - (var(--center-line-length) / 2));
 	}
 
 	.center_south {
-		/* background-color: lightcoral; */
 		width: var(--center-line-length);
 		top: calc(70% - (var(--horizontal-line-height) / 2));
 		left: calc(50% - (var(--center-line-length) / 2));
 	}
 
 	.center_east {
-		/* background-color: lightcoral; */
 		height: var(--center-line-length);
 		top: calc(50% - (var(--center-line-length) / 2));
 		left: calc(70% - (var(--vertical-line-width) / 2));
 	}
 
 	.center_west {
-		/* background-color: lightcoral; */
 		height: var(--center-line-length);
 		top: calc(50% - (var(--center-line-length) / 2));
 		left: calc(30% - (var(--vertical-line-width) / 2))
