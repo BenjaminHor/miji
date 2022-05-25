@@ -6,6 +6,7 @@ export let tile_model: TileModel
 let tile_size = 300
 let line_mapping = {}
 let dot_mapping = {}
+let tile_id = `tile_${Math.random()}`
 
 function reset_view() {
 	line_mapping = {
@@ -60,7 +61,7 @@ function click_handler(event) {
 	prev_rotation = curr_rotation
 
 
-	let node = document.getElementById("tile")
+	let node = document.getElementById(tile_id)
 	node.classList.remove("rotate_animation")
 	void node.offsetWidth
 	node.classList.add("rotate_animation")
@@ -74,7 +75,7 @@ render_tile(tile_model)
 <!-- HTML -->
 
 <div
-id="tile"
+id={tile_id}
 class="tile"
 style:--size="{tile_size}px"
 on:click={click_handler}
