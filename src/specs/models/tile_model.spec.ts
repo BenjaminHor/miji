@@ -1,4 +1,4 @@
-import { TileModel, Side, Rotation } from "../models/tile_model"
+import { TileModel, Side, Rotation } from "../../models/tile_model"
 
 describe("tile_model.ts", () => {
 	describe(".from_array", () => {
@@ -9,50 +9,6 @@ describe("tile_model.ts", () => {
 			expect(tile.internal_lines).toEqual(["1ab3", "7dc4"])
 			expect(tile.lines).toEqual([1,0,1,1,0,0,1,0])
 			expect(tile.dots).toEqual([1,1,1,1])
-		})
-	})
-
-	describe(".does_tile_fit", () => {
-		it("temp", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			let tile_2 = TileModel.from_array(["1ab3", "7dc4"])
-
-			let result = tile.does_tile_fit(tile_2, Side.SOUTH)
-
-			expect(result).toBeTruthy()
-		})
-	})
-
-	describe(".rotate", () => {
-		it("rotates tile 0 degrees", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			tile.rotate(Rotation.NONE)
-
-			expect(tile.internal_lines).toEqual(["1ad6"])
-		})
-		it("rotates tile 90 degrees", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			tile.rotate(Rotation.QUARTER)
-
-			expect(tile.internal_lines).toEqual(["3ba8"])
-		})
-		it("rotates tile 180 degrees", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			tile.rotate(Rotation.HALF)
-
-			expect(tile.internal_lines).toEqual(["5cb2"])
-		})
-		it("rotates tile 270 degrees", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			tile.rotate(Rotation.THREE_QUARTER)
-
-			expect(tile.internal_lines).toEqual(["7dc4"])
-		})
-		it("rotates tile 360 degrees", () => {
-			let tile = TileModel.from_array(["1ad6"])
-			tile.rotate(Rotation.FULL)
-
-			expect(tile.internal_lines).toEqual(["1ad6"])
 		})
 	})
 
