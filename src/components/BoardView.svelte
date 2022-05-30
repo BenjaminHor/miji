@@ -8,9 +8,9 @@ import { tile_catalog } from "../store";
 export let board_model: BoardModel
 
 let board_ref
-let size = .5 * window.innerWidth
+let size = .4 * window.innerWidth
 $: board_dimensions = board_model.board_dimensions
-$: tiles = generate_puzzle(board_model, $tile_catalog)
+$: puzzle = generate_puzzle(board_model, $tile_catalog)
 
 onMount(() => {
 	board_ref.style.setProperty("--board-size", `${size}px`)
@@ -23,8 +23,10 @@ bind:this={board_ref}
 class="board"
 style="--num-cols:{board_dimensions.columns}"
 >
-	{#each tiles as tile (tile.id)}
-		<TileView tile_model={tile}/>
+	{#each puzzle as row (row)}
+		{#each row as tile (tile)}
+			<TileView tile_model={tile}/>
+		{/each}
 	{/each}
 </div>
 

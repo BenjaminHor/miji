@@ -7,7 +7,7 @@ export class BoardModel {
 		rows: 2
 	}
 
-	generated_tiles: Array<TileModel> = []
+	generated_tiles: TileModel[][] = []
 
 	constructor(columns: number = 2, rows: number = 2) {
 		this.set_board_size(columns, rows)

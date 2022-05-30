@@ -11,6 +11,34 @@ describe("tile_controller.ts", () => {
 
 			expect(result).toBeTruthy()
 		})
+
+		it("does not fit", () => {
+			let tile = TileModel.from_array(["1a8, 2b3, 4c5, 6d7"])
+			let tile_2 = TileModel.from_array(["1ab3", "7dc6"])
+
+			let result = does_tile_fit(tile, tile_2, Side.NORTH)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile, tile_2, Side.SOUTH)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile, tile_2, Side.EAST)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile, tile_2, Side.WEST)
+			expect(result).toBeFalsy()
+		})
+
+		it.only("does not fit", () => {
+			let tile = TileModel.from_array(["1a8, 2b3, 4c5, 6d7"])
+			let tile_2 = TileModel.from_array([])
+
+			let result = does_tile_fit(tile_2, tile, Side.NORTH)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile_2, tile, Side.SOUTH)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile_2, tile, Side.EAST)
+			expect(result).toBeFalsy()
+			result = does_tile_fit(tile_2, tile, Side.WEST)
+			expect(result).toBeFalsy()
+		})
 	})
 
 	describe(".rotate", () => {
