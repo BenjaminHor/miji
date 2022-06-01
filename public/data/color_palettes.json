@@ -1,914 +1,914 @@
-[
-	{
-	   "tile_color":"#191a1b",
-	   "line_color":"#79a617",
-	   "main_color":"#79a617",
-	   "sub_text_color":"#48494b",
-	   "text_color":"#e7eae0",
-	   "name":"terminal"
-	},
-	{
-	   "tile_color":"#ffffff",
-	   "main_color":"#5ed5f3",
-	   "line_color":"#303030",
-	   "sub_text_color":"#d64090",
-	   "text_color":"#0a282f",
-	   "name":"ms_cupcakes"
-	},
-	{
-	   "tile_color":"#3b363f",
-	   "main_color":"#fc6e83",
-	   "line_color":"#474747",
-	   "sub_text_color":"#ead8d6",
-	   "text_color":"#fc6e83",
-	   "name":"fledgling"
-	},
-	{
-	   "tile_color":"#1C1E26",
-	   "main_color":"#c4a88a",
-	   "line_color":"#BBBBBB",
-	   "sub_text_color":"#db886f",
-	   "text_color":"#bbbbbb",
-	   "name":"horizon"
-	},
-	{
-	   "tile_color":"#a4a7ea",
-	   "main_color":"#e368da",
-	   "line_color":"#28cafe",
-	   "sub_text_color":"#7c7faf",
-	   "text_color":"#f1ebf1",
-	   "name":"vaporwave"
-	},
-	{
-	   "tile_color":"#f3dbda",
-	   "main_color":"#56786a",
-	   "line_color":"#afc5bd",
-	   "sub_text_color":"#ddb4a7",
-	   "text_color":"#56786a",
-	   "name":"witch_girl"
-	},
-	{
-	   "tile_color":"#fbf1c7",
-	   "main_color":"#689d6a",
-	   "line_color":"#689d6a",
-	   "sub_text_color":"#a89984",
-	   "text_color":"#3c3836",
-	   "name":"gruvbox_light"
-	},
-	{
-	   "tile_color":"#0c100e",
-	   "main_color":"#89c559",
-	   "line_color":"#89c559",
-	   "sub_text_color":"#436029",
-	   "text_color":"#f0edd1",
-	   "name":"terra"
-	},
-	{
-	   "tile_color":"#faf1e4",
-	   "main_color":"#618c56",
-	   "line_color":"#618c56",
-	   "sub_text_color":"#c2b8aa",
-	   "text_color":"#3c403b",
-	   "name":"camping"
-	},
-	{
-	   "tile_color":"#ebe1ef",
-	   "main_color":"#8a5bd6",
-	   "line_color":"#212b43",
-	   "sub_text_color":"#ac76e5",
-	   "text_color":"#212b43",
-	   "name":"lil_dragon"
-	},
-	{
-	   "tile_color":"#221b44",
-	   "main_color":"#009eaf",
-	   "line_color":"#009eaf",
-	   "sub_text_color":"#b82356",
-	   "text_color":"#dbe7e8",
-	   "name":"laser"
-	},
-	{
-	   "tile_color":"#f2aa00",
-	   "main_color":"#fff546",
-	   "line_color":"#795200",
-	   "sub_text_color":"#a66b00",
-	   "text_color":"#f3eecb",
-	   "name":"honey"
-	},
-	{
-	   "tile_color":"#eeebe2",
-	   "main_color":"#080909",
-	   "line_color":"#7fa480",
-	   "sub_text_color":"#99947f",
-	   "text_color":"#080909",
-	   "name":"9009"
-	},
-	{
-	   "tile_color":"#0058a3",
-	   "main_color":"#ffcc02",
-	   "line_color":"#b5b5b5",
-	   "sub_text_color":"#57abdb",
-	   "text_color":"#ffffff",
-	   "name":"sweden"
-	},
-	{
-	   "tile_color":"#002b36",
-	   "main_color":"#859900",
-	   "line_color":"#dc322f",
-	   "sub_text_color":"#2aa198",
-	   "text_color":"#268bd2",
-	   "name":"solarized_dark"
-	},
-	{
-	   "tile_color":"#afcbdd",
-	   "main_color":"#fcfbf6",
-	   "line_color":"#fcfbf6",
-	   "sub_text_color":"#85a5bb",
-	   "text_color":"#1a2633",
-	   "name":"mizu"
-	},
-	{
-	   "tile_color":"#0b1e1a",
-	   "line_color":"#66ac92",
-	   "main_color":"#66ac92",
-	   "sub_text_color":"#015c53",
-	   "text_color":"#dceae5",
-	   "name":"terror_below"
-	},
-	{
-	   "tile_color":"#b8a7aa",
-	   "main_color":"#83616e",
-	   "line_color":"#ebe6ea",
-	   "sub_text_color":"#48373d",
-	   "text_color":"#ebe6ea",
-	   "name":"bingsu"
-	},
-	{
-	   "tile_color":"#7b9c98",
-	   "main_color":"#eaf1f3",
-	   "line_color":"#abc6c4",
-	   "sub_text_color":"#495755",
-	   "text_color":"#eaf1f3",
-	   "name":"botanical"
-	},
-	{
-	   "tile_color":"#161821",
-	   "line_color":"#d2d4de",
-	   "main_color":"#84a0c6",
-	   "sub_text_color":"#595e76",
-	   "text_color":"#c6c8d1",
-	   "name":"iceberg_dark"
-	},
-	{
-	   "tile_color":"#101820",
-	   "main_color":"#eedaea",
-	   "line_color":"#eedaea",
-	   "sub_text_color":"#cf6bdd",
-	   "text_color":"#eedaea",
-	   "name":"aether"
-	},
-	{
-	   "tile_color":"#ffffff",
-	   "main_color":"#f5b1cc",
-	   "line_color":"#e45c96",
-	   "sub_text_color":"#93e8d3",
-	   "text_color":"#00ac8c",
-	   "name":"magic_girl"
-	},
-	{
-	   "tile_color":"#2b2b2c",
-	   "main_color":"#76689a",
-	   "line_color":"#76689a",
-	   "sub_text_color":"#d8a0a6",
-	   "text_color":"#f1e2e4",
-	   "name":"mashu"
-	},
-	{
-	   "tile_color":"#091f2c",
-	   "main_color":"#f5b1cc",
-	   "line_color":"#93e8d3",
-	   "sub_text_color":"#93e8d3",
-	   "text_color":"#a288d9",
-	   "name":"dark_magic_girl"
-	},
-	{
-	   "tile_color":"#05385b",
-	   "main_color":"#5cdb95",
-	   "line_color":"#5cdb95",
-	   "sub_text_color":"#20688a",
-	   "text_color":"#edf5e1",
-	   "name":"mint"
-	},
-	{
-	   "tile_color":"#1a2b3e",
-	   "line_color":"#af8f5c",
-	   "main_color":"#af8f5c",
-	   "sub_text_color":"#3a506c",
-	   "text_color":"#c9c8bf",
-	   "name":"rudy"
-	},
-	{
-	   "tile_color":"#e4e4d4",
-	   "main_color":"#6b886b",
-	   "line_color":"#424643",
-	   "sub_text_color":"#8a9b69",
-	   "text_color":"#555a56",
-	   "name":"dollar"
-	},
-	{
-	   "tile_color":"#2f343f",
-	   "line_color":"#61afef",
-	   "main_color":"#61afef",
-	   "sub_text_color":"#eceff4",
-	   "text_color":"#98c379",
-	   "name":"onedark"
-	},
-	{
-	   "tile_color":"#1a0b0c",
-	   "main_color":"#ff3a32",
-	   "line_color":"#ff3a32",
-	   "sub_text_color":"#e2a528",
-	   "text_color":"#4a4d4e",
-	   "name":"red_dragon"
-	},
-	{
-	   "tile_color":"#0c0e12",
-	   "main_color":"#708bc2",
-	   "line_color":"#708bc2",
-	   "sub_text_color":"#29303d",
-	   "text_color":"#d9e5ff",
-	   "name":"midnight"
-	},
-	{
-	   "tile_color":"#0068c6",
-	   "main_color":"#fa62d5",
-	   "line_color":"#4ddb47",
-	   "sub_text_color":"#f5f5f5",
-	   "text_color":"#fa62d5",
-	   "name":"ez_mode"
-	},
-	{
-	   "tile_color":"#000000",
-	   "main_color":"#15ff00",
-	   "line_color":"#15ff00",
-	   "sub_text_color":"#003B00",
-	   "text_color":"#adffa7",
-	   "name":"matrix"
-	},
-	{
-	   "tile_color":"#212121",
-	   "main_color":"#feff04",
-	   "line_color":"#feff04",
-	   "sub_text_color":"#5c4a9c",
-	   "text_color":"#e8e8e8",
-	   "name":"night_runner"
-	},
-	{
-	   "tile_color":"#b3baff",
-	   "main_color":"#130f1a",
-	   "line_color":"#00e9e5",
-	   "sub_text_color":"#6f6c91",
-	   "text_color":"#130f1a",
-	   "name":"taro"
-	},
-	{
-	   "tile_color":"#1e1e1e",
-	   "main_color":"#007acc",
-	   "line_color":"#569cd6",
-	   "sub_text_color":"#4d4d4d",
-	   "text_color":"#d4d4d4",
-	   "name":"vscode"
-	},
-	{
-	   "tile_color":"#242933",
-	   "line_color":"#d8dee9",
-	   "main_color":"#d8dee9",
-	   "sub_text_color":"#617b94",
-	   "text_color":"#d8dee9",
-	   "name":"nord"
-	},
-	{
-	   "tile_color":"#e8e9ec",
-	   "line_color":"#262a3f",
-	   "main_color":"#2d539e",
-	   "sub_text_color":"#adb1c4",
-	   "text_color":"#33374c",
-	   "name":"iceberg_light"
-	},
-	{
-	   "tile_color":"#1c292f",
-	   "main_color":"#6bde3b",
-	   "line_color":"#6bde3b",
-	   "sub_text_color":"#1a454e",
-	   "text_color":"#e9efe6",
-	   "name":"wavez"
-	},
-	{
-	   "tile_color":"#737373",
-	   "main_color":"#212222",
-	   "line_color":"#212222",
-	   "sub_text_color":"#aaaaaa",
-	   "text_color":"#212222",
-	   "name":"dualshot"
-	},
-	{
-	   "tile_color":"#263238",
-	   "main_color":"#80cbc4",
-	   "line_color":"#80cbc4",
-	   "sub_text_color":"#4c6772",
-	   "text_color":"#e6edf3",
-	   "name":"material"
-	},
-	{
-	   "tile_color":"#eeeeee",
-	   "main_color":"#444444",
-	   "line_color":"#444444",
-	   "sub_text_color":"#b2b2b2",
-	   "text_color":"#444444",
-	   "name":"paper"
-	},
-	{
-	   "tile_color":"#0f1f2c",
-	   "main_color":"#56c3b7",
-	   "line_color":"#56c3b7",
-	   "sub_text_color":"#326984",
-	   "text_color":"#e4edf1",
-	   "name":"metropolis"
-	},
-	{
-	   "tile_color":"#212135",
-	   "main_color":"#be3c88",
-	   "line_color":"#78c729",
-	   "sub_text_color":"#19b3b8",
-	   "text_color":"#838686",
-	   "name":"nebula"
-	},
-	{
-	   "tile_color":"#6c687f",
-	   "main_color":"#ffffff",
-	   "line_color":"#585568",
-	   "sub_text_color":"#9994b8",
-	   "text_color":"#ffffff",
-	   "name":"alpine"
-	},
-	{
-	   "tile_color":"#323437",
-	   "main_color":"#e2b714",
-	   "line_color":"#e2b714",
-	   "sub_text_color":"#646669",
-	   "text_color":"#d1d0c5",
-	   "name":"serika_dark"
-	},
-	{
-	   "tile_color":"#525252",
-	   "main_color":"#C5B4E3",
-	   "line_color":"#B1E4E3",
-	   "sub_text_color":"#939eae",
-	   "text_color":"#B1E4E3",
-	   "name":"muted"
-	},
-	{
-	   "tile_color":"#132237",
-	   "main_color":"#ebb723",
-	   "line_color":"#ebb723",
-	   "sub_text_color":"#0b4c6c",
-	   "text_color":"#1cbaac",
-	   "name":"nautilus"
-	},
-	{
-	   "tile_color":"#18181a",
-	   "main_color":"#e4609b",
-	   "line_color":"#e4609b",
-	   "sub_text_color":"#47bac0",
-	   "text_color":"#fff;\n",
-	   "name":"miami_nights"
-	},
-	{
-	   "tile_color":"#e0b2bd",
-	   "main_color":"#fbf4b6",
-	   "line_color":"#fbf4b6",
-	   "sub_text_color":"#b4e9ff",
-	   "text_color":"#6d5c6f",
-	   "name":"pastel"
-	},
-	{
-	   "tile_color":"#202020",
-	   "main_color":"#91170c",
-	   "line_color":"#c58940",
-	   "sub_text_color":"#847869",
-	   "text_color":"#fae1c3",
-	   "name":"ishtar"
-	},
-	{
-	   "tile_color":"#dad3c1",
-	   "main_color":"#1d1b17",
-	   "line_color":"#1d1b17",
-	   "sub_text_color":"#918b7d",
-	   "text_color":"#1d1b17",
-	   "name":"retro"
-	},
-	{
-	   "tile_color":"#010203",
-	   "main_color":"#383e42",
-	   "line_color":"#e25303",
-	   "sub_text_color":"#5e676e",
-	   "text_color":"#383e42",
-	   "name":"stealth"
-	},
-	{
-	   "tile_color":"#2F3338",
-	   "main_color":"#D6D2BC",
-	   "line_color":"#D6D2BC",
-	   "sub_text_color":"#8F8E84",
-	   "text_color":"#D6D2BC",
-	   "name":"repose_dark"
-	},
-	{
-	   "tile_color":"#7c878e",
-	   "main_color":"#93c247",
-	   "line_color":"#93c247",
-	   "sub_text_color":"#4b5257",
-	   "text_color":"#bfcfdc",
-	   "name":"lime"
-	},
-	{
-	   "tile_color":"#dae0f5",
-	   "main_color":"#506477",
-	   "line_color":"#df4576",
-	   "sub_text_color":"#92a4be",
-	   "text_color":"#678198",
-	   "name":"blueberry_light"
-	},
-	{
-	   "tile_color":"#1c1b1d",
-	   "main_color":"#deaf9d",
-	   "line_color":"#deaf9d",
-	   "sub_text_color":"#4e3e3e",
-	   "text_color":"#f2efed",
-	   "name":"olivia"
-	},
-	{
-	   "tile_color":"#313131",
-	   "main_color":"#f66e0d",
-	   "line_color":"#f66e0d",
-	   "sub_text_color":"#616161",
-	   "text_color":"#f5e6c8",
-	   "name":"carbon"
-	},
-	{
-	   "tile_color":"#ceb18d",
-	   "main_color":"#14120f",
-	   "line_color":"#14120f",
-	   "sub_text_color":"#d4d2d1",
-	   "text_color":"#14120f",
-	   "name":"cafe"
-	},
-	{
-	   "tile_color":"#2e1a47",
-	   "main_color":"#f7f2ea",
-	   "line_color":"#f7f2ea",
-	   "sub_text_color":"#c18fff",
-	   "text_color":"#f7f2ea",
-	   "name":"future_funk"
-	},
-	{
-	   "tile_color":"#124883",
-	   "main_color":"#d7dcda",
-	   "line_color":"#d7dcda",
-	   "sub_text_color":"#0f2d4e",
-	   "text_color":"#d6dbd9",
-	   "name":"striker"
-	},
-	{
-	   "tile_color":"#272822",
-	   "main_color":"#a6e22e",
-	   "line_color":"#66d9ef",
-	   "sub_text_color":"#e6db74",
-	   "text_color":"#e2e2dc",
-	   "name":"monokai"
-	},
-	{
-	   "tile_color":"#333a45",
-	   "main_color":"#f44c7f",
-	   "line_color":"#f44c7f",
-	   "sub_text_color":"#939eae",
-	   "text_color":"#e9ecf0",
-	   "name":"8008"
-	},
-	{
-	   "tile_color":"#e1dacb",
-	   "main_color":"#7b7d7d",
-	   "line_color":"#7b7d7d",
-	   "sub_text_color":"#b29c5e",
-	   "text_color":"#7b7d7d",
-	   "name":"froyo"
-	},
-	{
-	   "tile_color":"#058b8c",
-	   "main_color":"#b63530",
-	   "line_color":"#b63530",
-	   "sub_text_color":"#255458",
-	   "text_color":"#f7f2ea",
-	   "name":"deku"
-	},
-	{
-	   "tile_color":"#1c1c1c",
-	   "main_color":"#dfd7af",
-	   "line_color":"#e3e3e3",
-	   "sub_text_color":"#444444",
-	   "text_color":"#f5f3ed",
-	   "name":"alduin"
-	},
-	{
-	   "tile_color":"#282a36",
-	   "main_color":"#f2f2f2",
-	   "line_color":"#f2f2f2",
-	   "sub_text_color":"#bd93f9",
-	   "text_color":"#f2f2f2",
-	   "name":"dracula"
-	},
-	{
-	   "tile_color":"#232323",
-	   "main_color":"#d82934",
-	   "line_color":"#d82934",
-	   "sub_text_color":"#5e5e5e",
-	   "text_color":"#e8e8e8",
-	   "name":"metaverse"
-	},
-	{
-	   "tile_color":"#030613",
-	   "main_color":"#4fcdb9",
-	   "line_color":"#4fcdb9",
-	   "sub_text_color":"#1e283a",
-	   "text_color":"#e2f1f5",
-	   "name":"hammerhead"
-	},
-	{
-	   "tile_color":"#242933",
-	   "main_color":"#ec4c56",
-	   "line_color":"#ec4c56",
-	   "sub_text_color":"#596172",
-	   "text_color":"#f6f0e9",
-	   "name":"bushido"
-	},
-	{
-	   "tile_color":"#523525",
-	   "main_color":"#7ec160",
-	   "line_color":"#7ec160",
-	   "sub_text_color":"#9e6749",
-	   "text_color":"#ecddcc",
-	   "name":"matcha_moccha"
-	},
-	{
-	   "tile_color":"#2d2e30",
-	   "main_color":"#7eddd3",
-	   "line_color":"#7eddd3",
-	   "sub_text_color":"#54585c",
-	   "text_color":"#e3e6eb",
-	   "name":"modern_dolch"
-	},
-	{
-	   "tile_color":"#f37f83",
-	   "main_color":"#fcfcf8",
-	   "line_color":"#fcfcf8",
-	   "sub_text_color":"#e53c58",
-	   "text_color":"#fcfcf8",
-	   "name":"strawberry"
-	},
-	{
-	   "tile_color":"#2d394d",
-	   "main_color":"#ff7a90",
-	   "line_color":"#ff7a90",
-	   "sub_text_color":"#4a768d",
-	   "text_color":"#fffaf8",
-	   "name":"bento"
-	},
-	{
-	   "tile_color":"#00c18c",
-	   "main_color":"#ffffff",
-	   "line_color":"#99fdd8",
-	   "sub_text_color":"#186544",
-	   "text_color":"#ffffff",
-	   "name":"menthol"
-	},
-	{
-	   "tile_color":"#ce1226",
-	   "main_color":"#fcd116",
-	   "line_color":"#fcd116",
-	   "sub_text_color":"#6d0f19",
-	   "text_color":"#ffffff",
-	   "name":"our_theme"
-	},
-	{
-	   "tile_color":"#d1d7da",
-	   "main_color":"#daa99b",
-	   "line_color":"#8fadc9",
-	   "sub_text_color":"#9a9fa1",
-	   "text_color":"#1d1d1d",
-	   "name":"mr_sleeves"
-	},
-	{
-	   "tile_color":"#07737a",
-	   "main_color":"#88dbdf",
-	   "line_color":"#88dbdf",
-	   "sub_text_color":"#f3e03b",
-	   "text_color":"#ffffff",
-	   "name":"retrocast"
-	},
-	{
-	   "tile_color":"#fdf6e3",
-	   "main_color":"#859900",
-	   "line_color":"#dc322f",
-	   "sub_text_color":"#2aa198",
-	   "text_color":"#181819",
-	   "name":"solarized_light"
-	},
-	{
-	   "tile_color":"#262727",
-	   "main_color":"#f0d3c9",
-	   "line_color":"#f0d3c9",
-	   "sub_text_color":"#665957",
-	   "text_color":"#fff;\n",
-	   "name":"bliss"
-	},
-	{
-	   "tile_color":"#EFEAD0",
-	   "main_color":"#5F605E",
-	   "line_color":"#5F605E",
-	   "sub_text_color":"#8F8E84",
-	   "text_color":"#333538",
-	   "name":"repose_light"
-	},
-	{
-	   "tile_color":"#727474",
-	   "main_color":"#7fa482",
-	   "line_color":"#196378",
-	   "sub_text_color":"#cac4be",
-	   "text_color":"#131313",
-	   "name":"fundamentals"
-	},
-	{
-	   "tile_color":"#f35588",
-	   "main_color":"#05dfd7",
-	   "line_color":"#a3f7bf",
-	   "text_color":"#f0e9ec",
-	   "sub_text_color":"#94294c",
-	   "name":"miami"
-	},
-	{
-	   "tile_color":"#1f1d27",
-	   "main_color":"#9ccfd8",
-	   "line_color":"#f6c177",
-	   "sub_text_color":"#c4a7e7",
-	   "text_color":"#e0def4",
-	   "name":"rose_pine"
-	},
-	{
-	   "tile_color":"#2c2e34",
-	   "main_color":"#9ed072",
-	   "line_color":"#f38c71",
-	   "sub_text_color":"#e7c664",
-	   "text_color":"#e2e2e3",
-	   "name":"sonokai"
-	},
-	{
-	   "tile_color":"#ffffff",
-	   "main_color":"#212b43",
-	   "line_color":"#212b43",
-	   "sub_text_color":"#62cfe6",
-	   "text_color":"#212b43",
-	   "name":"milkshake"
-	},
-	{
-	   "tile_color":"#323437",
-	   "main_color":"#e2b714",
-	   "line_color":"#e2b714",
-	   "sub_text_color":"#646669",
-	   "text_color":"#d1d0c5",
-	   "name":"nausea"
-	},
-	{
-	   "tile_color":"#262a33",
-	   "main_color":"#43ffaf",
-	   "line_color":"#43ffaf",
-	   "sub_text_color":"#526777",
-	   "text_color":"#e5f7ef",
-	   "name":"superuser"
-	},
-	{
-	   "main_color":"#e2b714",
-	   "line_color":"#e2b714",
-	   "sub_text_color":"#aaaeb3",
-	   "tile_color":"#e1e1e3",
-	   "text_color":"#323437",
-	   "name":"serika"
-	},
-	{
-	   "tile_color":"#282828",
-	   "main_color":"#d79921",
-	   "line_color":"#fabd2f",
-	   "sub_text_color":"#665c54",
-	   "text_color":"#ebdbb2",
-	   "name":"gruvbox_dark"
-	},
-	{
-	   "tile_color":"#eae4cf",
-	   "main_color":"#9abbcd",
-	   "line_color":"#f4d476",
-	   "sub_text_color":"#c0bcab",
-	   "text_color":"#646669",
-	   "name":"godspeed"
-	},
-	{
-	   "tile_color":"#1a0e25",
-	   "main_color":"#99de1e",
-	   "line_color":"#99de1e",
-	   "sub_text_color":"#7554a3",
-	   "text_color":"#e9e2f5",
-	   "name":"joker"
-	},
-	{
-	   "tile_color":"#fffaf3",
-	   "main_color":"#56949f",
-	   "line_color":"#ea9d34",
-	   "sub_text_color":"#c4a7e7",
-	   "text_color":"#286983",
-	   "name":"rose_pine_dawn"
-	},
-	{
-	   "tile_color":"#36475c",
-	   "main_color":"#c0d036",
-	   "line_color":"#c0d036",
-	   "sub_text_color":"#5c6c80",
-	   "text_color":"#c1c7d7",
-	   "name":"grand_prix"
-	},
-	{
-	   "tile_color":"#ada6c2",
-	   "main_color":"#e4e3e9",
-	   "line_color":"#e4e3e9",
-	   "sub_text_color":"#e4e3e9",
-	   "text_color":"#2f2a41",
-	   "name":"lavender"
-	},
-	{
-	   "tile_color":"#1f4437",
-	   "main_color":"#d6686f",
-	   "line_color":"#d6686f",
-	   "sub_text_color":"#3e7a65",
-	   "text_color":"#cdc6bc",
-	   "name":"watermelon"
-	},
-	{
-	   "tile_color":"#442f29",
-	   "main_color":"#b46a55",
-	   "line_color":"#c25c42",
-	   "sub_text_color":"#7ebab5",
-	   "text_color":"#e7e0de",
-	   "name":"copper"
-	},
-	{
-	   "tile_color":"#181818",
-	   "main_color":"#17b8bd",
-	   "line_color":"#17b8bd",
-	   "sub_text_color":"#53565a",
-	   "text_color":"#e5f4f4",
-	   "name":"pulse"
-	},
-	{
-	   "tile_color":"#191826",
-	   "main_color":"#4a6fb5",
-	   "line_color":"#4f85e8",
-	   "sub_text_color":"#50688c",
-	   "text_color":"#9393a7",
-	   "name":"drowning"
-	},
-	{
-	   "tile_color":"#212b42",
-	   "main_color":"#add7ff",
-	   "line_color":"#962f7e",
-	   "sub_text_color":"#5c7da5",
-	   "text_color":"#91b4d5",
-	   "name":"blueberry_dark"
-	},
-	{
-	   "tile_color":"#0c0d11",
-	   "main_color":"#7ebab5",
-	   "line_color":"#7ebab5",
-	   "sub_text_color":"#454864",
-	   "text_color":"#f6f5f5",
-	   "name":"arch"
-	},
-	{
-	   "tile_color":"#e9e5cc",
-	   "line_color":"#92946f",
-	   "main_color":"#92946f",
-	   "sub_text_color":"#b7b39e",
-	   "text_color":"#373731",
-	   "name":"olive"
-	},
-	{
-	   "tile_color":"#221c35",
-	   "main_color":"#f67599",
-	   "line_color":"#f67599",
-	   "sub_text_color":"#5a3a7e",
-	   "text_color":"#ffe3eb",
-	   "name":"luna"
-	},
-	{
-	   "tile_color":"#84202c",
-	   "main_color":"#c79e6e",
-	   "line_color":"#c79e6e",
-	   "sub_text_color":"#55131b",
-	   "text_color":"#e2dad0",
-	   "name":"red_samurai"
-	},
-	{
-	   "tile_color":"#181c18",
-	   "main_color":"#00ce7c",
-	   "line_color":"#00ce7c",
-	   "sub_text_color":"#9578d3",
-	   "text_color":"#c2fbe1",
-	   "name":"cyberspace"
-	},
-	{
-	   "tile_color":"#ced7e0",
-	   "main_color":"#81c4dd",
-	   "line_color":"#81c4dd",
-	   "sub_text_color":"#7599b1",
-	   "text_color":"#3b4c58",
-	   "name":"shoko"
-	},
-	{
-	   "tile_color":"#313231",
-	   "main_color":"#a5a096",
-	   "line_color":"#a5a096",
-	   "sub_text_color":"#5d6263",
-	   "text_color":"#f7f5f1",
-	   "name":"oblivion"
-	},
-	{
-	   "tile_color":"#173f35",
-	   "main_color":"#eaa09c",
-	   "line_color":"#eaa09c",
-	   "sub_text_color":"#408e7b",
-	   "text_color":"#e9e0d2",
-	   "name":"bouquet"
-	},
-	{
-	   "tile_color":"#303c36",
-	   "main_color":"#a59682",
-	   "line_color":"#601420",
-	   "sub_text_color":"#181d1a",
-	   "text_color":"#a59682",
-	   "name":"graen"
-	},
-	{
-	   "tile_color":"#0f0f0f",
-	   "main_color":"#e7e7e7",
-	   "line_color":"#f5f5f5",
-	   "sub_text_color":"#4c4c4c",
-	   "text_color":"#e7e7e7",
-	   "name":"mountain"
-	},
-	{
-	   "tile_color":"#190618",
-	   "main_color":"#e0caac",
-	   "line_color":"#e0caac",
-	   "sub_text_color":"#4c1e48",
-	   "text_color":"#eeeae4",
-	   "name":"voc"
-	},
-	{
-	   "tile_color":"#242425",
-	   "main_color":"#2b5f6d",
-	   "line_color":"#2b5f6d",
-	   "sub_text_color":"#505b5e",
-	   "text_color":"#ccc2b1",
-	   "name":"norse"
-	},
-	{
-	   "tile_color":"#2a273f",
-	   "main_color":"#9ccfd8",
-	   "line_color":"#f6c177",
-	   "sub_text_color":"#c4a7e7",
-	   "text_color":"#e0def4",
-	   "name":"rose_pine_moon"
-	},
-	{
-	   "tile_color":"#1b1d36",
-	   "main_color":"#fca6d1",
-	   "line_color":"#99d6ea",
-	   "sub_text_color":"#99d6ea",
-	   "text_color":"#fca6d1",
-	   "name":"80s_after_dark"
-	},
-	{
-	   "tile_color":"#e0d7c1",
-	   "main_color":"#dd7a5f",
-	   "line_color":"#dd7a5f",
-	   "sub_text_color":"#e7b28e",
-	   "text_color":"#5f4c41",
-	   "name":"peaches"
-	}
- ]
+{
+  "8008": {
+    "sub-color": "#333a45",
+    "main-color": "#f44c7f",
+    "bg-color": "#939eae",
+    "text-color": "#e9ecf0"
+  },
+  "9009": {
+    "sub-color": "#eeebe2",
+    "main-color": "#080909",
+    "bg-color": "#99947f",
+    "text-color": "#080909"
+  },
+  "80s_after_dark": {
+    "sub-color": "#1b1d36",
+    "main-color": "#fca6d1",
+    "bg-color": "#99d6ea",
+    "text-color": "#e1e7ec"
+  },
+  "aether": {
+    "sub-color": "#101820",
+    "main-color": "#eedaea",
+    "bg-color": "#cf6bdd",
+    "text-color": "#eedaea"
+  },
+  "arch": {
+    "sub-color": "#0c0d11",
+    "main-color": "#7ebab5",
+    "bg-color": "#454864",
+    "text-color": "#f6f5f5"
+  },
+  "beach": {
+    "sub-color": "#ffeead",
+    "main-color": "#96ceb4",
+    "bg-color": "#ffcc5c",
+    "text-color": "#5b7869"
+  },
+  "aurora": {
+    "sub-color": "#011926",
+    "main-color": "#00e980",
+    "bg-color": "#245c69",
+    "text-color": "#fff;"
+  },
+  "alduin": {
+    "sub-color": "#1c1c1c",
+    "main-color": "#dfd7af",
+    "bg-color": "#444444",
+    "text-color": "#f5f3ed"
+  },
+  "alpine": {
+    "sub-color": "#6c687f",
+    "main-color": "#ffffff",
+    "bg-color": "#9994b8",
+    "text-color": "#ffffff"
+  },
+  "bento": {
+    "sub-color": "#2d394d",
+    "main-color": "#ff7a90",
+    "bg-color": "#4a768d",
+    "text-color": "#fffaf8"
+  },
+  "bingsu": {
+    "sub-color": "#b8a7aa",
+    "main-color": "#83616e",
+    "bg-color": "#48373d",
+    "text-color": "#ebe6ea"
+  },
+  "blue_dolphin": {
+    "sub-color": "#003950",
+    "main-color": "#ffcefb",
+    "bg-color": "#00e4ff",
+    "text-color": "#82eaff"
+  },
+  "blueberry_light": {
+    "sub-color": "#dae0f5",
+    "main-color": "#506477",
+    "bg-color": "#92a4be",
+    "text-color": "#678198"
+  },
+  "blueberry_dark": {
+    "sub-color": "#212b42",
+    "main-color": "#add7ff",
+    "bg-color": "#5c7da5",
+    "text-color": "#91b4d5"
+  },
+  "bouquet": {
+    "sub-color": "#173f35",
+    "main-color": "#eaa09c",
+    "bg-color": "#408e7b",
+    "text-color": "#e9e0d2"
+  },
+  "botanical": {
+    "sub-color": "#7b9c98",
+    "main-color": "#eaf1f3",
+    "bg-color": "#495755",
+    "text-color": "#eaf1f3"
+  },
+  "bushido": {
+    "sub-color": "#242933",
+    "main-color": "#ec4c56",
+    "bg-color": "#596172",
+    "text-color": "#f6f0e9"
+  },
+  "cafe": {
+    "sub-color": "#ceb18d",
+    "main-color": "#14120f",
+    "bg-color": "#d4d2d1",
+    "text-color": "#14120f"
+  },
+  "camping": {
+    "sub-color": "#faf1e4",
+    "main-color": "#618c56",
+    "bg-color": "#c2b8aa",
+    "text-color": "#3c403b"
+  },
+  "bliss": {
+    "sub-color": "#262727",
+    "main-color": "#f0d3c9",
+    "bg-color": "#665957",
+    "text-color": "#fff;"
+  },
+  "carbon": {
+    "sub-color": "#313131",
+    "main-color": "#f66e0d",
+    "bg-color": "#616161",
+    "text-color": "#f5e6c8"
+  },
+  "copper": {
+    "sub-color": "#442f29",
+    "main-color": "#b46a55",
+    "bg-color": "#7ebab5",
+    "text-color": "#e7e0de"
+  },
+  "comfy": {
+    "sub-color": "#4a5b6e",
+    "main-color": "#f8cdc6",
+    "bg-color": "#9ec1cc",
+    "text-color": "#f5efee"
+  },
+  "dark": {
+    "sub-color": "#111;",
+    "main-color": "#eee;",
+    "bg-color": "#444;",
+    "text-color": "#eee;"
+  },
+  "creamsicle": {
+    "sub-color": "#ff9869",
+    "main-color": "#fcfcf8",
+    "bg-color": "#ff661f",
+    "text-color": "#fcfcf8"
+  },
+  "cyberspace": {
+    "sub-color": "#181c18",
+    "main-color": "#00ce7c",
+    "bg-color": "#9578d3",
+    "text-color": "#c2fbe1"
+  },
+  "chaos_theory": {
+    "sub-color": "#141221",
+    "main-color": "#fd77d7",
+    "text-color": "#dde5ed",
+    "bg-color": "#676e8a"
+  },
+  "dark_magic_girl": {
+    "sub-color": "#091f2c",
+    "main-color": "#f5b1cc",
+    "bg-color": "#93e8d3",
+    "text-color": "#a288d9"
+  },
+  "darling": {
+    "sub-color": "#fec8cd",
+    "main-color": "#ffffff",
+    "bg-color": "#a30000",
+    "text-color": "#ffffff"
+  },
+  "dev": {
+    "sub-color": "#1b2028",
+    "main-color": "#23a9d5",
+    "bg-color": "#4b5975",
+    "text-color": "#ccccb5"
+  },
+  "diner": {
+    "sub-color": "#537997",
+    "main-color": "#c3af5b",
+    "bg-color": "#445c7f",
+    "text-color": "#dfdbc8"
+  },
+  "deku": {
+    "sub-color": "#058b8c",
+    "main-color": "#b63530",
+    "bg-color": "#255458",
+    "text-color": "#f7f2ea"
+  },
+  "catppuccin": {
+    "sub-color": "#1e1e2e",
+    "main-color": "#abe9b3",
+    "bg-color": "#575268",
+    "text-color": "#d9e0ee"
+  },
+  "dino": {
+    "sub-color": "#ffffff",
+    "main-color": "#40d672",
+    "bg-color": "#d5d5d5",
+    "text-color": "#1d221f"
+  },
+  "dollar": {
+    "sub-color": "#e4e4d4",
+    "main-color": "#6b886b",
+    "bg-color": "#8a9b69",
+    "text-color": "#555a56"
+  },
+  "dots": {
+    "sub-color": "#121520",
+    "main-color": "#fff;",
+    "bg-color": "#676e8a",
+    "text-color": "#fff;"
+  },
+  "dualshot": {
+    "sub-color": "#737373",
+    "main-color": "#212222",
+    "bg-color": "#aaaaaa",
+    "text-color": "#212222"
+  },
+  "dmg": {
+    "sub-color": "#dadbdc",
+    "main-color": "#ae185e",
+    "bg-color": "#3846b1",
+    "text-color": "#414141"
+  },
+  "evil_eye": {
+    "sub-color": "#0084c2",
+    "main-color": "#f7f2ea",
+    "bg-color": "#01589f",
+    "text-color": "#171718"
+  },
+  "fire": {
+    "sub-color": "#0f0000",
+    "main-color": "#b31313",
+    "bg-color": "#683434",
+    "text-color": "#ffffff"
+  },
+  "desert_oasis": {
+    "sub-color": "#fff2d5",
+    "main-color": "#d19d01",
+    "bg-color": "#0061fe",
+    "text-color": "#332800"
+  },
+  "dracula": {
+    "sub-color": "#282a36",
+    "main-color": "#f2f2f2",
+    "bg-color": "#bd93f9",
+    "text-color": "#f2f2f2"
+  },
+  "fledgling": {
+    "sub-color": "#3b363f",
+    "main-color": "#fc6e83",
+    "bg-color": "#8e5568",
+    "text-color": "#e6d5d3"
+  },
+  "fleuriste": {
+    "sub-color": "#c6b294",
+    "main-color": "#405a52",
+    "bg-color": "#64374d",
+    "text-color": "#091914"
+  },
+  "drowning": {
+    "sub-color": "#191826",
+    "main-color": "#4a6fb5",
+    "bg-color": "#50688c",
+    "text-color": "#9393a7"
+  },
+  "froyo": {
+    "sub-color": "#e1dacb",
+    "main-color": "#7b7d7d",
+    "bg-color": "#b29c5e",
+    "text-color": "#7b7d7d"
+  },
+  "frozen_llama": {
+    "sub-color": "#9bf2ea",
+    "main-color": "#6d44a6",
+    "bg-color": "#b690fd",
+    "text-color": "#ffffff"
+  },
+  "fruit_chew": {
+    "sub-color": "#d6d3d6",
+    "main-color": "#5c1e5f",
+    "bg-color": "#b49cb5",
+    "text-color": "#282528"
+  },
+  "godspeed": {
+    "sub-color": "#eae4cf",
+    "main-color": "#9abbcd",
+    "bg-color": "#ada998",
+    "text-color": "#646669"
+  },
+  "fundamentals": {
+    "sub-color": "#727474",
+    "main-color": "#7fa482",
+    "bg-color": "#cac4be",
+    "text-color": "#131313"
+  },
+  "future_funk": {
+    "sub-color": "#2e1a47",
+    "main-color": "#f7f2ea",
+    "bg-color": "#c18fff",
+    "text-color": "#f7f2ea"
+  },
+  "graen": {
+    "sub-color": "#303c36",
+    "main-color": "#a59682",
+    "bg-color": "#181d1a",
+    "text-color": "#a59682"
+  },
+  "gruvbox_light": {
+    "sub-color": "#fbf1c7",
+    "main-color": "#689d6a",
+    "bg-color": "#a89984",
+    "text-color": "#3c3836"
+  },
+  "gruvbox_dark": {
+    "sub-color": "#282828",
+    "main-color": "#d79921",
+    "bg-color": "#665c54",
+    "text-color": "#ebdbb2"
+  },
+  "grand_prix": {
+    "sub-color": "#36475c",
+    "main-color": "#c0d036",
+    "bg-color": "#5c6c80",
+    "text-color": "#c1c7d7"
+  },
+  "horizon": {
+    "sub-color": "#1c1e26",
+    "main-color": "#c4a88a",
+    "bg-color": "#db886f",
+    "text-color": "#bbbbbb"
+  },
+  "hammerhead": {
+    "sub-color": "#030613",
+    "main-color": "#4fcdb9",
+    "bg-color": "#213c53",
+    "text-color": "#e2f1f5"
+  },
+  "hanok": {
+    "sub-color": "#d8d2c3",
+    "main-color": "#513a2a",
+    "bg-color": "#8b6f5c",
+    "text-color": "#393b3b"
+  },
+  "ez_mode": {
+    "sub-color": "#0068c6",
+    "main-color": "#fa62d5",
+    "bg-color": "#138bf7",
+    "text-color": "#ffffff"
+  },
+  "honey": {
+    "sub-color": "#f2aa00",
+    "main-color": "#fff546",
+    "bg-color": "#a66b00",
+    "text-color": "#f3eecb"
+  },
+  "iceberg_dark": {
+    "sub-color": "#161821",
+    "main-color": "#84a0c6",
+    "bg-color": "#595e76",
+    "text-color": "#c6c8d1"
+  },
+  "iceberg_light": {
+    "sub-color": "#e8e9ec",
+    "main-color": "#2d539e",
+    "bg-color": "#adb1c4",
+    "text-color": "#33374c"
+  },
+  "husqy": {
+    "sub-color": "#000000",
+    "main-color": "#c58aff",
+    "bg-color": "#972fff",
+    "text-color": "#ebd7ff"
+  },
+  "joker": {
+    "sub-color": "#1a0e25",
+    "main-color": "#99de1e",
+    "bg-color": "#7554a3",
+    "text-color": "#e9e2f5"
+  },
+  "ishtar": {
+    "sub-color": "#202020",
+    "main-color": "#91170c",
+    "bg-color": "#847869",
+    "text-color": "#fae1c3"
+  },
+  "laser": {
+    "sub-color": "#221b44",
+    "main-color": "#009eaf",
+    "bg-color": "#b82356",
+    "text-color": "#dbe7e8"
+  },
+  "lavender": {
+    "sub-color": "#ada6c2",
+    "main-color": "#e4e3e9",
+    "bg-color": "#e4e3e9",
+    "text-color": "#2f2a41"
+  },
+  "leather": {
+    "sub-color": "#a86948",
+    "main-color": "#ffe4bc",
+    "bg-color": "#81482b",
+    "text-color": "#ffe4bc"
+  },
+  "lil_dragon": {
+    "sub-color": "#ebe1ef",
+    "main-color": "#8a5bd6",
+    "bg-color": "#a28db8",
+    "text-color": "#212b43"
+  },
+  "material": {
+    "sub-color": "#263238",
+    "main-color": "#80cbc4",
+    "bg-color": "#4c6772",
+    "text-color": "#e6edf3"
+  },
+  "luna": {
+    "sub-color": "#221c35",
+    "main-color": "#f67599",
+    "bg-color": "#5a3a7e",
+    "text-color": "#ffe3eb"
+  },
+  "magic_girl": {
+    "sub-color": "#ffffff",
+    "main-color": "#f5b1cc",
+    "bg-color": "#93e8d3",
+    "text-color": "#00ac8c"
+  },
+  "menthol": {
+    "sub-color": "#00c18c",
+    "main-color": "#ffffff",
+    "bg-color": "#186544",
+    "text-color": "#ffffff"
+  },
+  "mashu": {
+    "sub-color": "#2b2b2c",
+    "main-color": "#76689a",
+    "bg-color": "#d8a0a6",
+    "text-color": "#f1e2e4"
+  },
+  "metaverse": {
+    "sub-color": "#232323",
+    "main-color": "#d82934",
+    "bg-color": "#5e5e5e",
+    "text-color": "#e8e8e8"
+  },
+  "lime": {
+    "sub-color": "#7c878e",
+    "main-color": "#93c247",
+    "bg-color": "#4b5257",
+    "text-color": "#bfcfdc"
+  },
+  "mexican": {
+    "sub-color": "#F8AD34",
+    "main-color": "#B12189",
+    "bg-color": "#333;",
+    "text-color": "#eee;"
+  },
+  "metropolis": {
+    "sub-color": "#0f1f2c",
+    "main-color": "#56c3b7",
+    "bg-color": "#326984",
+    "text-color": "#e4edf1"
+  },
+  "matrix": {
+    "sub-color": "#000000",
+    "main-color": "#15ff00",
+    "bg-color": "#003b00",
+    "text-color": "#d1ffcd"
+  },
+  "matcha_moccha": {
+    "sub-color": "#523525",
+    "main-color": "#7ec160",
+    "bg-color": "#9e6749",
+    "text-color": "#ecddcc"
+  },
+  "miami": {
+    "sub-color": "#f35588",
+    "main-color": "#05dfd7",
+    "text-color": "#f0e9ec",
+    "bg-color": "#94294c"
+  },
+  "midnight": {
+    "sub-color": "#0b0e13",
+    "main-color": "#60759f",
+    "bg-color": "#394760",
+    "text-color": "#9fadc6"
+  },
+  "miami_nights": {
+    "sub-color": "#18181a",
+    "main-color": "#e4609b",
+    "bg-color": "#47bac0",
+    "text-color": "#fff;"
+  },
+  "mint": {
+    "sub-color": "#05385b",
+    "main-color": "#5cdb95",
+    "bg-color": "#20688a",
+    "text-color": "#edf5e1"
+  },
+  "mizu": {
+    "sub-color": "#afcbdd",
+    "main-color": "#fcfbf6",
+    "bg-color": "#85a5bb",
+    "text-color": "#1a2633"
+  },
+  "modern_ink": {
+    "sub-color": "#ffffff",
+    "main-color": "#ff360d",
+    "bg-color": "#b7b7b7",
+    "text-color": "#000000"
+  },
+  "milkshake": {
+    "sub-color": "#ffffff",
+    "main-color": "#212b43",
+    "bg-color": "#62cfe6",
+    "text-color": "#212b43"
+  },
+  "modern_dolch": {
+    "sub-color": "#2d2e30",
+    "main-color": "#7eddd3",
+    "bg-color": "#54585c",
+    "text-color": "#e3e6eb"
+  },
+  "monokai": {
+    "sub-color": "#272822",
+    "main-color": "#a6e22e",
+    "bg-color": "#e6db74",
+    "text-color": "#e2e2dc"
+  },
+  "moonlight": {
+    "sub-color": "#191f28",
+    "main-color": "#c69f68",
+    "bg-color": "#4b5975",
+    "text-color": "#ccccb5"
+  },
+  "ms_cupcakes": {
+    "sub-color": "#ffffff",
+    "main-color": "#5ed5f3",
+    "bg-color": "#d64090",
+    "text-color": "#0a282f"
+  },
+  "mountain": {
+    "sub-color": "#0f0f0f",
+    "main-color": "#e7e7e7",
+    "bg-color": "#4c4c4c",
+    "text-color": "#e7e7e7"
+  },
+  "mr_sleeves": {
+    "sub-color": "#d1d7da",
+    "main-color": "#daa99b",
+    "bg-color": "#9a9fa1",
+    "text-color": "#1d1d1d"
+  },
+  "nausea": {
+    "sub-color": "#323437",
+    "main-color": "#e2b714",
+    "bg-color": "#646669",
+    "text-color": "#d1d0c5"
+  },
+  "nebula": {
+    "sub-color": "#212135",
+    "main-color": "#be3c88",
+    "bg-color": "#19b3b8",
+    "text-color": "#838686"
+  },
+  "muted": {
+    "sub-color": "#525252",
+    "main-color": "#c5b4e3",
+    "bg-color": "#939eae",
+    "text-color": "#b1e4e3"
+  },
+  "night_runner": {
+    "sub-color": "#212121",
+    "main-color": "#feff04",
+    "bg-color": "#5c4a9c",
+    "text-color": "#e8e8e8"
+  },
+  "nautilus": {
+    "sub-color": "#132237",
+    "main-color": "#ebb723",
+    "bg-color": "#0b4c6c",
+    "text-color": "#1cbaac"
+  },
+  "oblivion": {
+    "sub-color": "#313231",
+    "main-color": "#a5a096",
+    "bg-color": "#5d6263",
+    "text-color": "#f7f5f1"
+  },
+  "nord": {
+    "sub-color": "#242933",
+    "main-color": "#d8dee9",
+    "bg-color": "#617b94",
+    "text-color": "#d8dee9"
+  },
+  "olive": {
+    "sub-color": "#e9e5cc",
+    "main-color": "#92946f",
+    "bg-color": "#b7b39e",
+    "text-color": "#373731"
+  },
+  "our_theme": {
+    "sub-color": "#ce1226",
+    "main-color": "#fcd116",
+    "bg-color": "#6d0f19",
+    "text-color": "#ffffff"
+  },
+  "onedark": {
+    "sub-color": "#2f343f",
+    "main-color": "#61afef",
+    "bg-color": "#eceff4",
+    "text-color": "#98c379"
+  },
+  "norse": {
+    "sub-color": "#242425",
+    "main-color": "#2b5f6d",
+    "bg-color": "#505b5e",
+    "text-color": "#ccc2b1"
+  },
+  "olivia": {
+    "sub-color": "#1c1b1d",
+    "main-color": "#deaf9d",
+    "bg-color": "#4e3e3e",
+    "text-color": "#f2efed"
+  },
+  "paper": {
+    "sub-color": "#eeeeee",
+    "main-color": "#444444",
+    "bg-color": "#b2b2b2",
+    "text-color": "#444444"
+  },
+  "pastel": {
+    "sub-color": "#e0b2bd",
+    "main-color": "#fbf4b6",
+    "bg-color": "#b4e9ff",
+    "text-color": "#6d5c6f"
+  },
+  "passion_fruit": {
+    "sub-color": "#7c2142",
+    "main-color": "#f4a3b4",
+    "bg-color": "#9994b8",
+    "text-color": "#ffffff"
+  },
+  "peaches": {
+    "sub-color": "#e0d7c1",
+    "main-color": "#dd7a5f",
+    "bg-color": "#e7b28e",
+    "text-color": "#5f4c41"
+  },
+  "red_dragon": {
+    "sub-color": "#1a0b0c",
+    "main-color": "#ff3a32",
+    "bg-color": "#e2a528",
+    "text-color": "#4a4d4e"
+  },
+  "red_samurai": {
+    "sub-color": "#84202c",
+    "main-color": "#c79e6e",
+    "bg-color": "#55131b",
+    "text-color": "#e2dad0"
+  },
+  "pulse": {
+    "sub-color": "#181818",
+    "main-color": "#17b8bd",
+    "bg-color": "#53565a",
+    "text-color": "#e5f4f4"
+  },
+  "repose_dark": {
+    "sub-color": "#2f3338",
+    "main-color": "#d6d2bc",
+    "bg-color": "#8f8e84",
+    "text-color": "#d6d2bc"
+  },
+  "repose_light": {
+    "sub-color": "#efead0",
+    "main-color": "#5f605e",
+    "bg-color": "#8f8e84",
+    "text-color": "#333538"
+  },
+  "retro": {
+    "sub-color": "#dad3c1",
+    "main-color": "#1d1b17",
+    "bg-color": "#918b7d",
+    "text-color": "#1d1b17"
+  },
+  "retrocast": {
+    "sub-color": "#07737a",
+    "main-color": "#88dbdf",
+    "bg-color": "#f3e03b",
+    "text-color": "#ffffff"
+  },
+  "rose_pine": {
+    "sub-color": "#1f1d27",
+    "main-color": "#9ccfd8",
+    "bg-color": "#c4a7e7",
+    "text-color": "#e0def4"
+  },
+  "rose_pine_dawn": {
+    "sub-color": "#fffaf3",
+    "main-color": "#56949f",
+    "bg-color": "#c4a7e7",
+    "text-color": "#286983"
+  },
+  "rose_pine_moon": {
+    "sub-color": "#2a273f",
+    "main-color": "#9ccfd8",
+    "bg-color": "#c4a7e7",
+    "text-color": "#e0def4"
+  },
+  "pink_lemonade": {
+    "sub-color": "#f6d992",
+    "main-color": "#f6a192",
+    "bg-color": "#f6b092",
+    "text-color": "#fcfcf8"
+  },
+  "ryujinscales": {
+    "sub-color": "#081426",
+    "main-color": "#f17754",
+    "bg-color": "#ffbc90",
+    "text-color": "#ffe4bc"
+  },
+  "rudy": {
+    "sub-color": "#1a2b3e",
+    "main-color": "#af8f5c",
+    "bg-color": "#3a506c",
+    "text-color": "#c9c8bf"
+  },
+  "sewing_tin": {
+    "sub-color": "#241963",
+    "main-color": "#f2ce83",
+    "bg-color": "#446ad5",
+    "text-color": "#ffffff"
+  },
+  "rgb": {
+    "sub-color": "#111;",
+    "main-color": "#eee;",
+    "bg-color": "#444;",
+    "text-color": "#eee;"
+  },
+  "sewing_tin_light": {
+    "sub-color": "#ffffff",
+    "main-color": "#2d2076",
+    "bg-color": "#385eca",
+    "text-color": "#2d2076"
+  },
+  "serika_dark": {
+    "sub-color": "#323437",
+    "main-color": "#e2b714",
+    "bg-color": "#646669",
+    "text-color": "#d1d0c5"
+  },
+  "serika": {
+    "main-color": "#e2b714",
+    "bg-color": "#aaaeb3",
+    "sub-color": "#e1e1e3",
+    "text-color": "#323437"
+  },
+  "soaring_skies": {
+    "sub-color": "#fff9f2",
+    "main-color": "#55c6f0",
+    "bg-color": "#1e107a",
+    "text-color": "#1d1e1e"
+  },
+  "solarized_dark": {
+    "sub-color": "#002b36",
+    "main-color": "#859900",
+    "bg-color": "#2aa198",
+    "text-color": "#268bd2"
+  },
+  "solarized_light": {
+    "sub-color": "#fdf6e3",
+    "main-color": "#859900",
+    "bg-color": "#2aa198",
+    "text-color": "#181819"
+  },
+  "sonokai": {
+    "sub-color": "#2c2e34",
+    "main-color": "#9ed072",
+    "bg-color": "#e7c664",
+    "text-color": "#e2e2e3"
+  },
+  "stealth": {
+    "sub-color": "#010203",
+    "main-color": "#383e42",
+    "bg-color": "#5e676e",
+    "text-color": "#383e42"
+  },
+  "snes": {
+    "sub-color": "#bfbec2",
+    "main-color": "#553d94",
+    "bg-color": "#9f8ad4",
+    "text-color": "#2e2e2e"
+  },
+  "shoko": {
+    "sub-color": "#ced7e0",
+    "main-color": "#81c4dd",
+    "bg-color": "#7599b1",
+    "text-color": "#3b4c58"
+  },
+  "strawberry": {
+    "sub-color": "#f37f83",
+    "main-color": "#fcfcf8",
+    "bg-color": "#e53c58",
+    "text-color": "#fcfcf8"
+  },
+  "striker": {
+    "sub-color": "#124883",
+    "main-color": "#d7dcda",
+    "bg-color": "#0f2d4e",
+    "text-color": "#d6dbd9"
+  },
+  "taro": {
+    "sub-color": "#b3baff",
+    "main-color": "#130f1a",
+    "bg-color": "#6f6c91",
+    "text-color": "#130f1a"
+  },
+  "shadow": {
+    "sub-color": "#000;",
+    "main-color": "#eee;",
+    "bg-color": "#444;",
+    "text-color": "#eee;"
+  },
+  "superuser": {
+    "sub-color": "#262a33",
+    "main-color": "#43ffaf",
+    "bg-color": "#526777",
+    "text-color": "#e5f7ef"
+  },
+  "sweden": {
+    "sub-color": "#0058a3",
+    "main-color": "#ffcc02",
+    "bg-color": "#57abdb",
+    "text-color": "#ffffff"
+  },
+  "terra": {
+    "sub-color": "#0c100e",
+    "main-color": "#89c559",
+    "bg-color": "#436029",
+    "text-color": "#f0edd1"
+  },
+  "terror_below": {
+    "sub-color": "#0b1e1a",
+    "main-color": "#66ac92",
+    "bg-color": "#015c53",
+    "text-color": "#dceae5"
+  },
+  "tiramisu": {
+    "sub-color": "#cfc6b9",
+    "main-color": "#c0976f",
+    "bg-color": "#c0976f",
+    "text-color": "#7d5448"
+  },
+  "trackday": {
+    "sub-color": "#464d66",
+    "main-color": "#e0513e",
+    "bg-color": "#5c7eb9",
+    "text-color": "#cfcfcf"
+  },
+  "terminal": {
+    "sub-color": "#191a1b",
+    "main-color": "#79a617",
+    "bg-color": "#48494b",
+    "text-color": "#e7eae0"
+  },
+  "voc": {
+    "sub-color": "#190618",
+    "main-color": "#e0caac",
+    "bg-color": "#4c1e48",
+    "text-color": "#eeeae4"
+  },
+  "trance": {
+    "sub-color": "#00021b",
+    "main-color": "#e51376",
+    "bg-color": "#3c4c79",
+    "text-color": "#fff;"
+  },
+  "watermelon": {
+    "sub-color": "#1f4437",
+    "main-color": "#d6686f",
+    "bg-color": "#3e7a65",
+    "text-color": "#cdc6bc"
+  },
+  "vscode": {
+    "sub-color": "#1e1e1e",
+    "main-color": "#007acc",
+    "bg-color": "#4d4d4d",
+    "text-color": "#d4d4d4"
+  },
+  "vaporwave": {
+    "sub-color": "#a4a7ea",
+    "main-color": "#e368da",
+    "bg-color": "#7c7faf",
+    "text-color": "#f1ebf1"
+  },
+  "witch_girl": {
+    "sub-color": "#f3dbda",
+    "main-color": "#56786a",
+    "bg-color": "#ddb4a7",
+    "text-color": "#56786a"
+  },
+  "wavez": {
+    "sub-color": "#1c292f",
+    "main-color": "#6bde3b",
+    "bg-color": "#1f5e6b",
+    "text-color": "#e9efe6"
+  }
+}

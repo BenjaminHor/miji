@@ -12,15 +12,8 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 		generated_tiles.push([])
 	}
 
-	// Add a root tile
-	// generated_tiles[0].push(TileModel.from_array(["1a8", "2b3", "4c5", "6d7"]))
-
 	for (let row = 0; row < rows; row++) {
 		for (let col = 0; col < columns; col++) {
-			// if (row == 0 && col == 0) {
-			// 	continue
-			// }
-
 			let tile_found = false
 			let discarded_choices = new Map()
 
@@ -33,8 +26,7 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 
 				// Choose a random tile and determine if it fits in the puzzle
 				let potential_tile = TileModel.from_array(tile_catalog[search_index])
-				let fits = does_tile_fit(potential_tile, generated_tiles, row, col)
-				if (fits) {
+				if (does_tile_fit(potential_tile, generated_tiles, row, col)) {
 					// If it fits, then we add it to the generated_tiles
 					potential_tile.set_position(row, col)
 					generated_tiles[row].push(potential_tile)
@@ -47,7 +39,7 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 		}
 	}
 
-	randomize_puzzle(generated_tiles)
+	// randomize_puzzle(generated_tiles)
 
 	// Update the board model with the newly generated tiles
 	board_model.generated_tiles = [...generated_tiles]
@@ -105,8 +97,11 @@ function tile_fits_adjacent_tiles(tile: TileModel, generated_tiles: TileModel[][
 }
 
 function get_tile(generated_tiles: TileModel[][], row: number, col: number) {
-	if (generated_tiles[row] != undefined) {
-		return generated_tiles[row][col]
+	let r = row
+	let c = col
+
+	if (generated_tiles[r] != undefined) {
+		return generated_tiles[r][c]
 	}
 	return undefined
 }
