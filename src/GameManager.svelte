@@ -37,6 +37,7 @@ function change_theme(theme: string) {
 <div>
 	{#await tiles && colors then value}
 		<BoardView board_model={board_model}/>
+		<br>
 		<button on:click={() => change_board_size(1)}>+</button>
 		<button on:click={() => change_board_size(-1)}>-</button>
 		<button on:click={() => change_board_size(0)}>New</button>
