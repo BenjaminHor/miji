@@ -5,23 +5,11 @@
     "bg-color": "#939eae",
     "text-color": "#e9ecf0"
   },
-  "9009": {
-    "sub-color": "#eeebe2",
-    "main-color": "#080909",
-    "bg-color": "#99947f",
-    "text-color": "#080909"
-  },
   "80s_after_dark": {
     "sub-color": "#1b1d36",
     "main-color": "#fca6d1",
     "bg-color": "#99d6ea",
     "text-color": "#e1e7ec"
-  },
-  "aether": {
-    "sub-color": "#101820",
-    "main-color": "#eedaea",
-    "bg-color": "#cf6bdd",
-    "text-color": "#eedaea"
   },
   "arch": {
     "sub-color": "#0c0d11",
@@ -47,12 +35,6 @@
     "bg-color": "#444444",
     "text-color": "#f5f3ed"
   },
-  "alpine": {
-    "sub-color": "#6c687f",
-    "main-color": "#ffffff",
-    "bg-color": "#9994b8",
-    "text-color": "#ffffff"
-  },
   "bento": {
     "sub-color": "#2d394d",
     "main-color": "#ff7a90",
@@ -77,35 +59,17 @@
     "bg-color": "#92a4be",
     "text-color": "#678198"
   },
-  "blueberry_dark": {
-    "sub-color": "#212b42",
-    "main-color": "#add7ff",
-    "bg-color": "#5c7da5",
-    "text-color": "#91b4d5"
-  },
   "bouquet": {
     "sub-color": "#173f35",
     "main-color": "#eaa09c",
     "bg-color": "#408e7b",
     "text-color": "#e9e0d2"
   },
-  "botanical": {
-    "sub-color": "#7b9c98",
-    "main-color": "#eaf1f3",
-    "bg-color": "#495755",
-    "text-color": "#eaf1f3"
-  },
   "bushido": {
     "sub-color": "#242933",
     "main-color": "#ec4c56",
     "bg-color": "#596172",
     "text-color": "#f6f0e9"
-  },
-  "cafe": {
-    "sub-color": "#ceb18d",
-    "main-color": "#14120f",
-    "bg-color": "#d4d2d1",
-    "text-color": "#14120f"
   },
   "camping": {
     "sub-color": "#faf1e4",
@@ -137,18 +101,6 @@
     "bg-color": "#9ec1cc",
     "text-color": "#f5efee"
   },
-  "dark": {
-    "sub-color": "#111;",
-    "main-color": "#eee;",
-    "bg-color": "#444;",
-    "text-color": "#eee;"
-  },
-  "creamsicle": {
-    "sub-color": "#ff9869",
-    "main-color": "#fcfcf8",
-    "bg-color": "#ff661f",
-    "text-color": "#fcfcf8"
-  },
   "cyberspace": {
     "sub-color": "#181c18",
     "main-color": "#00ce7c",
@@ -166,12 +118,6 @@
     "main-color": "#f5b1cc",
     "bg-color": "#93e8d3",
     "text-color": "#a288d9"
-  },
-  "darling": {
-    "sub-color": "#fec8cd",
-    "main-color": "#ffffff",
-    "bg-color": "#a30000",
-    "text-color": "#ffffff"
   },
   "dev": {
     "sub-color": "#1b2028",
@@ -215,12 +161,6 @@
     "bg-color": "#676e8a",
     "text-color": "#fff;"
   },
-  "dualshot": {
-    "sub-color": "#737373",
-    "main-color": "#212222",
-    "bg-color": "#aaaaaa",
-    "text-color": "#212222"
-  },
   "dmg": {
     "sub-color": "#dadbdc",
     "main-color": "#ae185e",
@@ -245,12 +185,6 @@
     "bg-color": "#0061fe",
     "text-color": "#332800"
   },
-  "dracula": {
-    "sub-color": "#282a36",
-    "main-color": "#f2f2f2",
-    "bg-color": "#bd93f9",
-    "text-color": "#f2f2f2"
-  },
   "fledgling": {
     "sub-color": "#3b363f",
     "main-color": "#fc6e83",
@@ -268,12 +202,6 @@
     "main-color": "#4a6fb5",
     "bg-color": "#50688c",
     "text-color": "#9393a7"
-  },
-  "froyo": {
-    "sub-color": "#e1dacb",
-    "main-color": "#7b7d7d",
-    "bg-color": "#b29c5e",
-    "text-color": "#7b7d7d"
   },
   "frozen_llama": {
     "sub-color": "#9bf2ea",
@@ -298,18 +226,6 @@
     "main-color": "#7fa482",
     "bg-color": "#cac4be",
     "text-color": "#131313"
-  },
-  "future_funk": {
-    "sub-color": "#2e1a47",
-    "main-color": "#f7f2ea",
-    "bg-color": "#c18fff",
-    "text-color": "#f7f2ea"
-  },
-  "graen": {
-    "sub-color": "#303c36",
-    "main-color": "#a59682",
-    "bg-color": "#181d1a",
-    "text-color": "#a59682"
   },
   "gruvbox_light": {
     "sub-color": "#fbf1c7",
@@ -401,12 +317,6 @@
     "bg-color": "#e4e3e9",
     "text-color": "#2f2a41"
   },
-  "leather": {
-    "sub-color": "#a86948",
-    "main-color": "#ffe4bc",
-    "bg-color": "#81482b",
-    "text-color": "#ffe4bc"
-  },
   "lil_dragon": {
     "sub-color": "#ebe1ef",
     "main-color": "#8a5bd6",
@@ -430,12 +340,6 @@
     "main-color": "#f5b1cc",
     "bg-color": "#93e8d3",
     "text-color": "#00ac8c"
-  },
-  "menthol": {
-    "sub-color": "#00c18c",
-    "main-color": "#ffffff",
-    "bg-color": "#186544",
-    "text-color": "#ffffff"
   },
   "mashu": {
     "sub-color": "#2b2b2c",
@@ -515,12 +419,6 @@
     "bg-color": "#b7b7b7",
     "text-color": "#000000"
   },
-  "milkshake": {
-    "sub-color": "#ffffff",
-    "main-color": "#212b43",
-    "bg-color": "#62cfe6",
-    "text-color": "#212b43"
-  },
   "modern_dolch": {
     "sub-color": "#2d2e30",
     "main-color": "#7eddd3",
@@ -544,12 +442,6 @@
     "main-color": "#5ed5f3",
     "bg-color": "#d64090",
     "text-color": "#0a282f"
-  },
-  "mountain": {
-    "sub-color": "#0f0f0f",
-    "main-color": "#e7e7e7",
-    "bg-color": "#4c4c4c",
-    "text-color": "#e7e7e7"
   },
   "mr_sleeves": {
     "sub-color": "#d1d7da",
@@ -593,12 +485,6 @@
     "bg-color": "#5d6263",
     "text-color": "#f7f5f1"
   },
-  "nord": {
-    "sub-color": "#242933",
-    "main-color": "#d8dee9",
-    "bg-color": "#617b94",
-    "text-color": "#d8dee9"
-  },
   "olive": {
     "sub-color": "#e9e5cc",
     "main-color": "#92946f",
@@ -628,12 +514,6 @@
     "main-color": "#deaf9d",
     "bg-color": "#4e3e3e",
     "text-color": "#f2efed"
-  },
-  "paper": {
-    "sub-color": "#eeeeee",
-    "main-color": "#444444",
-    "bg-color": "#b2b2b2",
-    "text-color": "#444444"
   },
   "pastel": {
     "sub-color": "#e0b2bd",
@@ -671,23 +551,11 @@
     "bg-color": "#53565a",
     "text-color": "#e5f4f4"
   },
-  "repose_dark": {
-    "sub-color": "#2f3338",
-    "main-color": "#d6d2bc",
-    "bg-color": "#8f8e84",
-    "text-color": "#d6d2bc"
-  },
   "repose_light": {
     "sub-color": "#efead0",
     "main-color": "#5f605e",
     "bg-color": "#8f8e84",
     "text-color": "#333538"
-  },
-  "retro": {
-    "sub-color": "#dad3c1",
-    "main-color": "#1d1b17",
-    "bg-color": "#918b7d",
-    "text-color": "#1d1b17"
   },
   "retrocast": {
     "sub-color": "#07737a",
@@ -737,18 +605,6 @@
     "bg-color": "#446ad5",
     "text-color": "#ffffff"
   },
-  "rgb": {
-    "sub-color": "#111;",
-    "main-color": "#eee;",
-    "bg-color": "#444;",
-    "text-color": "#eee;"
-  },
-  "sewing_tin_light": {
-    "sub-color": "#ffffff",
-    "main-color": "#2d2076",
-    "bg-color": "#385eca",
-    "text-color": "#2d2076"
-  },
   "serika_dark": {
     "sub-color": "#323437",
     "main-color": "#e2b714",
@@ -785,12 +641,6 @@
     "bg-color": "#e7c664",
     "text-color": "#e2e2e3"
   },
-  "stealth": {
-    "sub-color": "#010203",
-    "main-color": "#383e42",
-    "bg-color": "#5e676e",
-    "text-color": "#383e42"
-  },
   "snes": {
     "sub-color": "#bfbec2",
     "main-color": "#553d94",
@@ -802,30 +652,6 @@
     "main-color": "#81c4dd",
     "bg-color": "#7599b1",
     "text-color": "#3b4c58"
-  },
-  "strawberry": {
-    "sub-color": "#f37f83",
-    "main-color": "#fcfcf8",
-    "bg-color": "#e53c58",
-    "text-color": "#fcfcf8"
-  },
-  "striker": {
-    "sub-color": "#124883",
-    "main-color": "#d7dcda",
-    "bg-color": "#0f2d4e",
-    "text-color": "#d6dbd9"
-  },
-  "taro": {
-    "sub-color": "#b3baff",
-    "main-color": "#130f1a",
-    "bg-color": "#6f6c91",
-    "text-color": "#130f1a"
-  },
-  "shadow": {
-    "sub-color": "#000;",
-    "main-color": "#eee;",
-    "bg-color": "#444;",
-    "text-color": "#eee;"
   },
   "superuser": {
     "sub-color": "#262a33",
@@ -898,12 +724,6 @@
     "main-color": "#e368da",
     "bg-color": "#7c7faf",
     "text-color": "#f1ebf1"
-  },
-  "witch_girl": {
-    "sub-color": "#f3dbda",
-    "main-color": "#56786a",
-    "bg-color": "#ddb4a7",
-    "text-color": "#56786a"
   },
   "wavez": {
     "sub-color": "#1c292f",
