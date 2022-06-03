@@ -38,6 +38,9 @@ export class TileModel {
 	lines: number[] = [0,0,0,0,0,0,0,0] // 1,2,3,4,5,6,7,8
 	dots: number[] = [0,0,0,0] // a,b,c,d
 
+	// Indicates whether or not this tile fits adjacent tiles
+	is_highlighted: boolean = false
+
 	constructor(row: number = 0, col: number = 0) {
 		this.row_pos = row
 		this.col_pos = col

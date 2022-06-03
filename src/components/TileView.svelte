@@ -1,13 +1,19 @@
 <script lang="ts">
 import { Rotation, TileModel } from "../models/tile_model";
 import * as TileController from "../controllers/tile_controller"
+import { createEventDispatcher, onMount } from 'svelte'
 
 export let tile_model: TileModel
 
 let line_mapping = {}
 let dot_mapping = {}
+let prev_rotation = 0
+let curr_rotation = 0
+let dispatch = createEventDispatcher()
 
-function reset_view() {
+$: set_up_colors(tile_model.is_highlighted)
+
+function render_tile(tile: TileModel) {
 	line_mapping = {
 		"1a": { visibility: "hidden" },
 		"2b": { visibility: "hidden" },
@@ -28,10 +34,6 @@ function reset_view() {
 		"c": { visibility: "hidden" },
 		"d": { visibility: "hidden" },
 	}
-}
-
-function render_tile(tile: TileModel) {
-	reset_view()
 
 	function format_key(symbol1: string, symbol2: string): string {
 		let symbols = [symbol1, symbol2]
@@ -50,9 +52,6 @@ function render_tile(tile: TileModel) {
 	}
 }
 
-let prev_rotation = 0
-let curr_rotation = 0
-
 function click_handler(event) {
 	let node = document.getElementById(tile_model.id)
 
@@ -66,7 +65,29 @@ function click_handler(event) {
 	node.classList.add("rotate_animation")
 
 	TileController.rotate(tile_model, Rotation.QUARTER)
+
+	// Dispatch an rotate event to the game manager
+	dispatch("rotated", {
+		tile: tile_model
+	})
 }
+
+function set_up_colors(is_highlighted: boolean) {
+	let node = document.getElementById(tile_model.id)
+	if (node != null) {
+		if (is_highlighted) {
+			node.style.setProperty("--line-color", `var(--main-color)`)
+			node.style.setProperty("--dot-color", `var(--main-color)`)
+		} else {
+			node.style.setProperty("--line-color", `var(--text-color)`)
+			node.style.setProperty("--dot-color", `var(--text-color)`)
+		}
+	}
+}
+
+onMount(() => {
+	set_up_colors(tile_model.is_highlighted)
+})
 
 render_tile(tile_model)
 </script>
@@ -108,13 +129,10 @@ on:click={click_handler}
 		--horizontal-line-height: var(--vertical-line-width);
 		--center-line-length: calc(var(--vertical-line-width) + 40%);
 		--dot-size: 30%;
-
-		--line-color: var(--main-color);
-		--dot-color: var(--main-color);
-		--tile-color: var(--sub-color);
 	}
 
 	div {
+		--tile-color: var(--sub-color);
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		-webkit-transform-style: preserve-3d;
 		-webkit-transform:translate3d(0,0,0);

@@ -2,10 +2,10 @@
 import TileView from "./TileView.svelte";
 import { onMount } from "svelte";
 import { BoardModel } from "../models/board_model";
-import { generate_puzzle } from "../puzzle_generator";
-import { tile_catalog, color_palettes, current_theme } from "../store";
+import { TileModel } from "../models/tile_model";
 
 export let board_model: BoardModel
+export let puzzle: TileModel[][]
 
 let board_ref
 let size = .45 * window.innerWidth
@@ -13,24 +13,22 @@ if (/Mobi|Android/i.test(navigator.userAgent)) {
 	size = .9 * window.innerWidth
 }
 let left = (window.innerWidth / 2) - (size / 2)
-$: board_dimensions = board_model.board_dimensions
-$: puzzle = generate_puzzle(board_model, $tile_catalog)
 
 onMount(() => {
 	board_ref.style.setProperty("--board-size", `${size}px`)
 	board_ref.style.setProperty("--left", `${left}px`)
-	board_ref.style.setProperty("--num-cols", `${board_dimensions.columns}`)
+	board_ref.style.setProperty("--num-cols", `${board_model.board_dimensions.columns}`)
 })
 </script>
 
 <div
 bind:this={board_ref}
 class="board"
-style="--num-cols:{board_dimensions.columns}"
+style="--num-cols:{board_model.board_dimensions.columns}"
 >
 	{#each puzzle as row (row)}
 		{#each row as tile (tile)}
-			<TileView tile_model={tile}/>
+			<TileView on:rotated tile_model={tile}/>
 		{/each}
 	{/each}
 </div>
