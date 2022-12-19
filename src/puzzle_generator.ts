@@ -39,7 +39,7 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 		}
 	}
 
-	// randomize_puzzle(generated_tiles)
+	randomize_puzzle(generated_tiles)
 
 	// Update the board model with the newly generated tiles
 	board_model.generated_tiles = [...generated_tiles]
