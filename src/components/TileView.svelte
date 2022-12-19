@@ -1,3 +1,4 @@
+<!-- TODO: Look into creating SVG representations of these tiles -->
 <script lang="ts">
 import { Rotation, TileModel } from "../models/tile_model";
 import * as TileController from "../controllers/tile_controller"

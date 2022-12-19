@@ -1,7 +1,7 @@
 import { Rotation, Side, TileModel } from "../models/tile_model"
 
 
-export function rotate(tile: TileModel, rotation: Rotation): TileModel {
+export function rotate(tile: TileModel, rotation: Rotation) {
 	let new_lines = []
 
 	for (let line of tile.internal_lines) {
@@ -28,8 +28,6 @@ export function rotate(tile: TileModel, rotation: Rotation): TileModel {
 	for (let line of new_lines) {
 		tile.add_line(line)
 	}
-
-	return this
 }
 
 export function does_tile_fit(this_tile: TileModel, other_tile: TileModel, side: Side): boolean {
@@ -46,6 +44,8 @@ export function does_tile_fit(this_tile: TileModel, other_tile: TileModel, side:
 		}
 	}
 
+	// Does other_tile fit onto the side of this_tile?
+	// Ex. Does other_tile fit onto the north side of this_tile
 	function helper(this_tile: TileModel, other_tile: TileModel, side: Side): boolean {
 		let side_mapping = new Map()
 		side_mapping[Side.NORTH] = [1, 2]
@@ -69,9 +69,9 @@ export function does_tile_fit(this_tile: TileModel, other_tile: TileModel, side:
 				}
 			}
 		}
+
 		return true
 	}
 
-	return helper(this_tile, other_tile, side)
-		&& helper(other_tile, this_tile, get_opposite_side(side))
+	return helper(this_tile, other_tile, side) && helper(other_tile, this_tile, get_opposite_side(side))
 }
