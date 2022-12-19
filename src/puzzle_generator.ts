@@ -69,7 +69,7 @@ function does_tile_fit(tile: TileModel, generated_tiles: TileModel[][], row: num
 	return false
 }
 
-function tile_fits_adjacent_tiles(tile: TileModel, generated_tiles: TileModel[][], row: number, col: number) {
+export function tile_fits_adjacent_tiles(tile: TileModel, generated_tiles: TileModel[][], row: number, col: number) {
 	// Fetch the tiles adjacent to the tile passed in
 	let north_tile = get_tile(generated_tiles, row - 1, col)
 	let south_tile = get_tile(generated_tiles, row + 1, col)
@@ -96,7 +96,7 @@ function tile_fits_adjacent_tiles(tile: TileModel, generated_tiles: TileModel[][
 	return true
 }
 
-function get_tile(generated_tiles: TileModel[][], row: number, col: number) {
+export function get_tile(generated_tiles: TileModel[][], row: number, col: number) {
 	let r = row
 	let c = col
 
