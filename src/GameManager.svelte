@@ -53,9 +53,5 @@ function change_theme(theme: string) {
 <style>
 	:root {
 		background-color: var(--bg-color);
-		--bg-color: white;
-		--main-color: white;
-		--sub-color: white;
-		--text-color: white;
 	}
 </style>
