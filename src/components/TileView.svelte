@@ -53,13 +53,13 @@ let prev_rotation = 0
 let curr_rotation = 0
 
 function click_handler(event) {
+	let node = document.getElementById(tile_id)
+
 	curr_rotation = curr_rotation + 1
-	document.documentElement.style.setProperty("--prev-rotation", `${prev_rotation * 90}deg`)
-	document.documentElement.style.setProperty("--curr-rotation", `${curr_rotation * 90}deg`)
+	node.style.setProperty("--prev-rotation", `${prev_rotation * 90}deg`)
+	node.style.setProperty("--curr-rotation", `${curr_rotation * 90}deg`)
 	prev_rotation = curr_rotation
 
-
-	let node = document.getElementById(tile_id)
 	node.classList.remove("rotate_animation")
 	void node.offsetWidth
 	node.classList.add("rotate_animation")
