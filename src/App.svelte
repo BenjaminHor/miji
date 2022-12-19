@@ -2,14 +2,28 @@
 import TileView from "./components/TileView.svelte";
 import { Rotation, TileModel, Side } from "./models/tile_model";
 
-let tile = TileModel.from_array(["1abcd7"])
-let tile2 = TileModel.from_array(["1ab", "7dc"])
+let tiles = []
+fetch("data/tiles.json")
+  .then(response => response.json())
+  .then(json => tiles = json)
+
+let size = 1 * window.innerWidth
+document.documentElement.style.setProperty("--board-size", `${size}px`)
+
 </script>
 
-<div>
-	<TileView tile_model={tile}/>
-	<TileView tile_model={tile2}/>
+<div class="board">
+	{#each tiles as tile}
+		<TileView tile_model={TileModel.from_array(tile)}/>
+	{/each}
 </div>
 
 <style>
+	.board {
+		display: grid;
+		grid-template-columns: repeat(9, 1fr);
+		gap: 5px;
+		width: var(--board-size);
+		height: var(--board-size);
+	}
 </style>
