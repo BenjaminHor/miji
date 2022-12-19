@@ -13,13 +13,13 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 	}
 
 	// Add a root tile
-	generated_tiles[0].push(TileModel.from_array(["1a8", "2b3", "4c5", "6d7"]))
+	// generated_tiles[0].push(TileModel.from_array(["1a8", "2b3", "4c5", "6d7"]))
 
 	for (let row = 0; row < rows; row++) {
 		for (let col = 0; col < columns; col++) {
-			if (row == 0 && col == 0) {
-				continue
-			}
+			// if (row == 0 && col == 0) {
+			// 	continue
+			// }
 
 			let tile_found = false
 			let discarded_choices = new Map()
@@ -47,7 +47,7 @@ export function generate_puzzle(board_model: BoardModel, tile_catalog: string[][
 		}
 	}
 
-	// randomize_puzzle(generated_tiles)
+	randomize_puzzle(generated_tiles)
 
 	// Update the board model with the newly generated tiles
 	board_model.generated_tiles = [...generated_tiles]

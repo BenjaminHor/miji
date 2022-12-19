@@ -8,12 +8,19 @@ import { tile_catalog } from "../store";
 export let board_model: BoardModel
 
 let board_ref
-let size = .4 * window.innerWidth
+let size = .45 * window.innerWidth
 $: board_dimensions = board_model.board_dimensions
 $: puzzle = generate_puzzle(board_model, $tile_catalog)
 
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+	size = .9 * window.innerWidth
+}
+
+let left = (window.innerWidth / 2) - (size / 2)
+
 onMount(() => {
 	board_ref.style.setProperty("--board-size", `${size}px`)
+	board_ref.style.setProperty("--left", `${left}px`)
 	board_ref.style.setProperty("--num-cols", `${board_dimensions.columns}`)
 })
 </script>
@@ -38,5 +45,6 @@ style="--num-cols:{board_dimensions.columns}"
 		gap: 5px;
 		width: var(--board-size);
 		height: var(--board-size);
+		left: var(--left);
 	}
 </style>
