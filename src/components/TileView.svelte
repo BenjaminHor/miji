@@ -1,10 +1,11 @@
 <script lang="ts">
 import { Rotation, TileModel } from "../models/tile_model";
+import * as TileController from "../controllers/tile_controller"
 
 export let tile_model: TileModel
+
 let line_mapping = {}
 let dot_mapping = {}
-let tile_id = `tile_${Math.random()}`
 
 function reset_view() {
 	line_mapping = {
@@ -32,6 +33,11 @@ function reset_view() {
 function render_tile(tile: TileModel) {
 	reset_view()
 
+	function format_key(symbol1: string, symbol2: string): string {
+		let symbols = [symbol1, symbol2]
+		return symbols.sort().join('')
+	}
+
 	for (let line of tile.internal_lines) {
 		for (let i = 0; i < line.length - 1; i++) {
 			let key = format_key(line[i], line[i + 1])
@@ -44,16 +50,11 @@ function render_tile(tile: TileModel) {
 	}
 }
 
-function format_key(symbol1: string, symbol2: string): string {
-	let symbols = [symbol1, symbol2]
-	return symbols.sort().join('')
-}
-
 let prev_rotation = 0
 let curr_rotation = 0
 
 function click_handler(event) {
-	let node = document.getElementById(tile_id)
+	let node = document.getElementById(tile_model.id)
 
 	curr_rotation = curr_rotation + 1
 	node.style.setProperty("--prev-rotation", `${prev_rotation * 90}deg`)
@@ -64,7 +65,7 @@ function click_handler(event) {
 	void node.offsetWidth
 	node.classList.add("rotate_animation")
 
-	tile_model.rotate(Rotation.QUARTER)
+	TileController.rotate(tile_model, Rotation.QUARTER)
 }
 
 render_tile(tile_model)
@@ -73,18 +74,18 @@ render_tile(tile_model)
 <!-- HTML -->
 
 <div
-id={tile_id}
+id={tile_model.id}
 class="tile"
 on:click={click_handler}
 >
 	<div class="vertical line q1_north" style:visibility={line_mapping["1a"].visibility}></div>
-	<div class="horizontal line q1_west" style:visibility={line_mapping["8a"].visibility}></div>
 	<div class="vertical line q2_north" style:visibility={line_mapping["2b"].visibility}></div>
 	<div class="horizontal line q2_east" style:visibility={line_mapping["3b"].visibility}></div>
 	<div class="horizontal line q3_east" style:visibility={line_mapping["4c"].visibility}></div>
 	<div class="vertical line q3_south" style:visibility={line_mapping["5c"].visibility}></div>
 	<div class="vertical line q4_south" style:visibility={line_mapping["6d"].visibility}></div>
 	<div class="horizontal line q4_west" style:visibility={line_mapping["7d"].visibility}></div>
+	<div class="horizontal line q1_west" style:visibility={line_mapping["8a"].visibility}></div>
 
 	<div class="horizontal line center_north" style:visibility={line_mapping["ab"].visibility}></div>
 	<div class="vertical line center_east" style:visibility={line_mapping["bc"].visibility}></div>
@@ -124,12 +125,13 @@ on:click={click_handler}
 		background-color: var(--tile-color);
 		border-radius: 15%;
 		border-style: solid;
-		border-color: rgb(102, 123, 144);
+		border-width: 5px;
+		border-color: rgb(97, 122, 148);
 	}
 
 	:global(.rotate_animation) {
 		animation-name: rotation;
-		animation-duration: 200ms;
+		animation-duration: 150ms;
 		animation-fill-mode: forwards;
 	}
 
