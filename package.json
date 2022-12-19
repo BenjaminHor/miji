@@ -9,7 +9,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "test": "jest -c ./jest.config.json",
     "test:coverage": "jest --coverage -c ./jest.config.json",
-    "deploy": "npm run build && vercel deploy --name miji --prod"
+    "deploy:beta": "npm run build && vercel deploy --name miji",
+    "deploy:prod": "npm run build && vercel deploy --name miji --prod"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
