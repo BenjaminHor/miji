@@ -1,4 +1,3 @@
-<!-- TODO: Look into creating SVG representations of these tiles -->
 <script lang="ts">
 import { Rotation, TileModel } from "../models/tile_model";
 import * as TileController from "../controllers/tile_controller"
@@ -110,9 +109,9 @@ on:click={click_handler}
 		--center-line-length: calc(var(--vertical-line-width) + 40%);
 		--dot-size: 30%;
 
-		--line-color: white;
-		--dot-color: white;
-		--tile-color: slategrey;
+		--line-color: var(--main-color);
+		--dot-color: var(--main-color);
+		--tile-color: var(--sub-color);
 	}
 
 	div {
@@ -127,7 +126,7 @@ on:click={click_handler}
 		border-radius: 15%;
 		border-style: solid;
 		border-width: 5px;
-		border-color: rgb(97, 122, 148);
+		border-color: var(--sub-color);
 	}
 
 	:global(.rotate_animation) {

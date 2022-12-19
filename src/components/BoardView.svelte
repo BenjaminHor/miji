@@ -3,20 +3,18 @@ import TileView from "./TileView.svelte";
 import { onMount } from "svelte";
 import { BoardModel } from "../models/board_model";
 import { generate_puzzle } from "../puzzle_generator";
-import { tile_catalog } from "../store";
+import { tile_catalog, color_palettes, current_theme } from "../store";
 
 export let board_model: BoardModel
 
 let board_ref
 let size = .45 * window.innerWidth
-$: board_dimensions = board_model.board_dimensions
-$: puzzle = generate_puzzle(board_model, $tile_catalog)
-
 if (/Mobi|Android/i.test(navigator.userAgent)) {
 	size = .9 * window.innerWidth
 }
-
 let left = (window.innerWidth / 2) - (size / 2)
+$: board_dimensions = board_model.board_dimensions
+$: puzzle = generate_puzzle(board_model, $tile_catalog)
 
 onMount(() => {
 	board_ref.style.setProperty("--board-size", `${size}px`)
